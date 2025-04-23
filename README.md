@@ -13,7 +13,7 @@ This is a plugin version of [Noct-Salamander Grand Piano](https://www.ir.isas.ja
 3. Using DAW, load NoctSalamander.vst3.
 4. Click the "Choose Sample Folder" and select a folder extracted Samples.zip.\
   ![2025-04-23 131648](https://github.com/user-attachments/assets/8994c856-ffbf-4050-861f-12c5ae0a2a8b)
-6. Reload NoctSalamander.vst3.\
+6. Once unload NoctSalamander.vst3 and load again.\
   ![2025-04-23 131748](https://github.com/user-attachments/assets/8ddfa36c-2f60-4234-be3d-2948efc81238)
 
 
