@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="release5" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="21" LoKey="20" HiKey="22" LoVel="1" HiVel="44" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmSA0.wav"
+          Duplicate="0" SampleEnd="93585" MonolithOffset="0" MonolithLength="94208"
+          SampleRate="48000.0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="1" HiVel="44" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmSC1.wav"
+          Duplicate="0" SampleEnd="97771" MonolithOffset="94208" MonolithLength="98304"
+          SampleRate="48000.0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="1" HiVel="44" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmSD#1.wav"
+          Duplicate="0" SampleEnd="93917" MonolithOffset="192512" MonolithLength="94208"
+          SampleRate="48000.0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="1" HiVel="44" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmSF#1.wav"
+          Duplicate="0" SampleEnd="96494" MonolithOffset="286720" MonolithLength="98304"
+          SampleRate="48000.0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="1" HiVel="44" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmSA1.wav"
+          Duplicate="0" SampleEnd="98416" MonolithOffset="385024" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="1" HiVel="44" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmSC2.wav"
+          Duplicate="0" SampleEnd="96816" MonolithOffset="487424" MonolithLength="98304"
+          SampleRate="48000.0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="1" HiVel="44" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmSD#2.wav"
+          Duplicate="0" SampleEnd="92298" MonolithOffset="585728" MonolithLength="94208"
+          SampleRate="48000.0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="1" HiVel="44" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmSF#2.wav"
+          Duplicate="0" SampleEnd="95205" MonolithOffset="679936" MonolithLength="98304"
+          SampleRate="48000.0"/>
+</samplemap>

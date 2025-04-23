@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="sustain" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2" MonolithSplitAmount="2">
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v01.wav"
+          Duplicate="0" SampleEnd="1007876" MonolithOffset="0" MonolithLength="1011712"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v02.wav"
+          Duplicate="0" SampleEnd="1008026" MonolithOffset="1011712" MonolithLength="1011712"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v03.wav"
+          Duplicate="0" SampleEnd="1073055" MonolithOffset="2023424" MonolithLength="1073152"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v04.wav"
+          Duplicate="0" SampleEnd="1182145" MonolithOffset="3096576" MonolithLength="1183744"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v05.wav"
+          Duplicate="0" SampleEnd="1188463" MonolithOffset="4280320" MonolithLength="1191936"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v06.wav"
+          Duplicate="0" SampleEnd="1179226" MonolithOffset="5472256" MonolithLength="1179648"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v07.wav"
+          Duplicate="0" SampleEnd="1232693" MonolithOffset="6651904" MonolithLength="1232896"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v08.wav"
+          Duplicate="0" SampleEnd="1192918" MonolithOffset="7884800" MonolithLength="1196032"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v09.wav"
+          Duplicate="0" SampleEnd="1210444" MonolithOffset="9080832" MonolithLength="1212416"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v10.wav"
+          Duplicate="0" SampleEnd="1231763" MonolithOffset="10293248" MonolithLength="1232896"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v11.wav"
+          Duplicate="0" SampleEnd="1204750" MonolithOffset="11526144" MonolithLength="1208320"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v12.wav"
+          Duplicate="0" SampleEnd="1225810" MonolithOffset="12734464" MonolithLength="1228800"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v13.wav"
+          Duplicate="0" SampleEnd="1229216" MonolithOffset="13963264" MonolithLength="1232896"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v14.wav"
+          Duplicate="0" SampleEnd="1190258" MonolithOffset="15196160" MonolithLength="1191936"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v15.wav"
+          Duplicate="0" SampleEnd="1188135" MonolithOffset="16388096" MonolithLength="1191936"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}021_A0v16.wav"
+          Duplicate="0" SampleEnd="1233346" MonolithOffset="17580032" MonolithLength="1236992"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v01.wav"
+          Duplicate="0" SampleEnd="1138408" MonolithOffset="18817024" MonolithLength="1138688"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v02.wav"
+          Duplicate="0" SampleEnd="1125799" MonolithOffset="19955712" MonolithLength="1126400"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v03.wav"
+          Duplicate="0" SampleEnd="1125799" MonolithOffset="21082112" MonolithLength="1126400"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v04.wav"
+          Duplicate="0" SampleEnd="1125044" MonolithOffset="22208512" MonolithLength="1126400"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v05.wav"
+          Duplicate="0" SampleEnd="1128573" MonolithOffset="23334912" MonolithLength="1130496"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v06.wav"
+          Duplicate="0" SampleEnd="1132350" MonolithOffset="24465408" MonolithLength="1134592"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v07.wav"
+          Duplicate="0" SampleEnd="1129839" MonolithOffset="25600000" MonolithLength="1130496"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v08.wav"
+          Duplicate="0" SampleEnd="1126355" MonolithOffset="26730496" MonolithLength="1126400"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v09.wav"
+          Duplicate="0" SampleEnd="1119257" MonolithOffset="27856896" MonolithLength="1122304"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v10.wav"
+          Duplicate="0" SampleEnd="1126894" MonolithOffset="28979200" MonolithLength="1130496"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v11.wav"
+          Duplicate="0" SampleEnd="1123303" MonolithOffset="30109696" MonolithLength="1126400"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v12.wav"
+          Duplicate="0" SampleEnd="1121486" MonolithOffset="31236096" MonolithLength="1122304"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v13.wav"
+          Duplicate="0" SampleEnd="1119706" MonolithOffset="32358400" MonolithLength="1122304"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v14.wav"
+          Duplicate="0" SampleEnd="1126435" MonolithOffset="33480704" MonolithLength="1130496"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v15.wav"
+          Duplicate="0" SampleEnd="1139543" MonolithOffset="34611200" MonolithLength="1142784"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}024_C1v16.wav"
+          Duplicate="0" SampleEnd="1118849" MonolithOffset="35753984" MonolithLength="1122304"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v01.wav"
+          Duplicate="0" SampleEnd="911268" MonolithOffset="36876288" MonolithLength="913408"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v02.wav"
+          Duplicate="0" SampleEnd="1031255" MonolithOffset="37789696" MonolithLength="1032192"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v03.wav"
+          Duplicate="0" SampleEnd="1034213" MonolithOffset="38821888" MonolithLength="1036288"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v04.wav"
+          Duplicate="0" SampleEnd="1055435" MonolithOffset="39858176" MonolithLength="1056768"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v05.wav"
+          Duplicate="0" SampleEnd="1157912" MonolithOffset="40914944" MonolithLength="1159168"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v06.wav"
+          Duplicate="0" SampleEnd="1160314" MonolithOffset="42074112" MonolithLength="1163264"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v07.wav"
+          Duplicate="0" SampleEnd="1147265" MonolithOffset="43237376" MonolithLength="1150976"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v08.wav"
+          Duplicate="0" SampleEnd="1161432" MonolithOffset="44388352" MonolithLength="1163264"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v09.wav"
+          Duplicate="0" SampleEnd="1161084" MonolithOffset="45551616" MonolithLength="1163264"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v10.wav"
+          Duplicate="0" SampleEnd="1147491" MonolithOffset="46714880" MonolithLength="1150976"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v11.wav"
+          Duplicate="0" SampleEnd="1153013" MonolithOffset="47865856" MonolithLength="1155072"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v12.wav"
+          Duplicate="0" SampleEnd="1149252" MonolithOffset="49020928" MonolithLength="1150976"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v13.wav"
+          Duplicate="0" SampleEnd="1153433" MonolithOffset="50171904" MonolithLength="1155072"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v14.wav"
+          Duplicate="0" SampleEnd="1153668" MonolithOffset="51326976" MonolithLength="1155072"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v15.wav"
+          Duplicate="0" SampleEnd="1148584" MonolithOffset="52482048" MonolithLength="1150976"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}027_D#1v16.wav"
+          Duplicate="0" SampleEnd="1161360" MonolithOffset="53633024" MonolithLength="1163264"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v01.wav"
+          Duplicate="0" SampleEnd="1150676" MonolithOffset="54796288" MonolithLength="1150976"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v02.wav"
+          Duplicate="0" SampleEnd="1129604" MonolithOffset="55947264" MonolithLength="1130496"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v03.wav"
+          Duplicate="0" SampleEnd="1150736" MonolithOffset="57077760" MonolithLength="1150976"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v04.wav"
+          Duplicate="0" SampleEnd="1126315" MonolithOffset="58228736" MonolithLength="1126400"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v05.wav"
+          Duplicate="0" SampleEnd="1203006" MonolithOffset="59355136" MonolithLength="1204224"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v06.wav"
+          Duplicate="0" SampleEnd="1203006" MonolithOffset="60559360" MonolithLength="1204224"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v07.wav"
+          Duplicate="0" SampleEnd="1327448" MonolithOffset="61763584" MonolithLength="1331200"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v08.wav"
+          Duplicate="0" SampleEnd="1327875" MonolithOffset="63094784" MonolithLength="1331200"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v09.wav"
+          Duplicate="0" SampleEnd="1325985" MonolithOffset="64425984" MonolithLength="1327104"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v10.wav"
+          Duplicate="0" SampleEnd="1332722" MonolithOffset="65753088" MonolithLength="1335296"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v11.wav"
+          Duplicate="0" SampleEnd="1326833" MonolithOffset="67088384" MonolithLength="1327104"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v12.wav"
+          Duplicate="0" SampleEnd="1326833" MonolithOffset="68415488" MonolithLength="1327104"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v13.wav"
+          Duplicate="0" SampleEnd="1332874" MonolithOffset="69742592" MonolithLength="1335296"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v14.wav"
+          Duplicate="0" SampleEnd="1333607" MonolithOffset="71077888" MonolithLength="1335296"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v15.wav"
+          Duplicate="0" SampleEnd="1326378" MonolithOffset="72413184" MonolithLength="1327104"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}030_F#1v16.wav"
+          Duplicate="0" SampleEnd="1333768" MonolithOffset="73740288" MonolithLength="1335296"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v01.wav"
+          Duplicate="0" SampleEnd="967604" MonolithOffset="75075584" MonolithLength="970752"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v02.wav"
+          Duplicate="0" SampleEnd="949883" MonolithOffset="76046336" MonolithLength="950272"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v03.wav"
+          Duplicate="0" SampleEnd="967654" MonolithOffset="76996608" MonolithLength="970752"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v04.wav"
+          Duplicate="0" SampleEnd="947118" MonolithOffset="77967360" MonolithLength="950272"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v05.wav"
+          Duplicate="0" SampleEnd="1011608" MonolithOffset="78917632" MonolithLength="1011712"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v06.wav"
+          Duplicate="0" SampleEnd="1011608" MonolithOffset="79929344" MonolithLength="1011712"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v07.wav"
+          Duplicate="0" SampleEnd="1116250" MonolithOffset="80941056" MonolithLength="1118208"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v08.wav"
+          Duplicate="0" SampleEnd="1116562" MonolithOffset="82059264" MonolithLength="1118208"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v09.wav"
+          Duplicate="0" SampleEnd="1115021" MonolithOffset="83177472" MonolithLength="1118208"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v10.wav"
+          Duplicate="0" SampleEnd="1120685" MonolithOffset="84295680" MonolithLength="1122304"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v11.wav"
+          Duplicate="0" SampleEnd="1115734" MonolithOffset="85417984" MonolithLength="1118208"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v12.wav"
+          Duplicate="0" SampleEnd="1115734" MonolithOffset="86536192" MonolithLength="1118208"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v13.wav"
+          Duplicate="0" SampleEnd="1120766" MonolithOffset="87654400" MonolithLength="1122304"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v14.wav"
+          Duplicate="0" SampleEnd="1121430" MonolithOffset="88776704" MonolithLength="1122304"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v15.wav"
+          Duplicate="0" SampleEnd="1115350" MonolithOffset="89899008" MonolithLength="1118208"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}033_A1v16.wav"
+          Duplicate="0" SampleEnd="1121566" MonolithOffset="91017216" MonolithLength="1122304"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v01.wav"
+          Duplicate="0" SampleEnd="896062" MonolithOffset="92139520" MonolithLength="897024"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v02.wav"
+          Duplicate="0" SampleEnd="922074" MonolithOffset="93036544" MonolithLength="925696"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v03.wav"
+          Duplicate="0" SampleEnd="971245" MonolithOffset="93962240" MonolithLength="974848"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v04.wav"
+          Duplicate="0" SampleEnd="945893" MonolithOffset="94937088" MonolithLength="946176"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v05.wav"
+          Duplicate="0" SampleEnd="1068279" MonolithOffset="95883264" MonolithLength="1069056"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v06.wav"
+          Duplicate="0" SampleEnd="1071329" MonolithOffset="96952320" MonolithLength="1073152"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v07.wav"
+          Duplicate="0" SampleEnd="1068939" MonolithOffset="98025472" MonolithLength="1069056"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v08.wav"
+          Duplicate="0" SampleEnd="1071122" MonolithOffset="99094528" MonolithLength="1073152"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v09.wav"
+          Duplicate="0" SampleEnd="1069218" MonolithOffset="100167680"
+          MonolithLength="1073152" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v10.wav"
+          Duplicate="0" SampleEnd="1067082" MonolithOffset="101240832"
+          MonolithLength="1069056" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v11.wav"
+          Duplicate="0" SampleEnd="1069929" MonolithOffset="102309888"
+          MonolithLength="1073152" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v12.wav"
+          Duplicate="0" SampleEnd="1069391" MonolithOffset="103383040"
+          MonolithLength="1073152" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v13.wav"
+          Duplicate="0" SampleEnd="1066455" MonolithOffset="104456192"
+          MonolithLength="1069056" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v14.wav"
+          Duplicate="0" SampleEnd="1067799" MonolithOffset="105525248"
+          MonolithLength="1069056" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v15.wav"
+          Duplicate="0" SampleEnd="1071218" MonolithOffset="106594304"
+          MonolithLength="1073152" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}036_C2v16.wav"
+          Duplicate="0" SampleEnd="1071063" MonolithOffset="107667456"
+          MonolithLength="1073152" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v01.wav"
+          Duplicate="0" SampleEnd="907600" MonolithOffset="108740608" MonolithLength="909312"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v02.wav"
+          Duplicate="0" SampleEnd="986164" MonolithOffset="109649920" MonolithLength="987136"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v03.wav"
+          Duplicate="0" SampleEnd="986164" MonolithOffset="110637056" MonolithLength="987136"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v04.wav"
+          Duplicate="0" SampleEnd="1024435" MonolithOffset="111624192"
+          MonolithLength="1028096" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v05.wav"
+          Duplicate="0" SampleEnd="1067169" MonolithOffset="112652288"
+          MonolithLength="1069056" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v06.wav"
+          Duplicate="0" SampleEnd="1073400" MonolithOffset="113721344"
+          MonolithLength="1077248" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v07.wav"
+          Duplicate="0" SampleEnd="1067433" MonolithOffset="114798592"
+          MonolithLength="1069056" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v08.wav"
+          Duplicate="0" SampleEnd="1068652" MonolithOffset="115867648"
+          MonolithLength="1069056" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v09.wav"
+          Duplicate="0" SampleEnd="1060933" MonolithOffset="116936704"
+          MonolithLength="1064960" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v10.wav"
+          Duplicate="0" SampleEnd="1071796" MonolithOffset="118001664"
+          MonolithLength="1073152" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v11.wav"
+          Duplicate="0" SampleEnd="1053620" MonolithOffset="119074816"
+          MonolithLength="1056768" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v12.wav"
+          Duplicate="0" SampleEnd="1052961" MonolithOffset="120131584"
+          MonolithLength="1056768" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v13.wav"
+          Duplicate="0" SampleEnd="1054614" MonolithOffset="121188352"
+          MonolithLength="1056768" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v14.wav"
+          Duplicate="0" SampleEnd="1053328" MonolithOffset="122245120"
+          MonolithLength="1056768" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v15.wav"
+          Duplicate="0" SampleEnd="1074303" MonolithOffset="123301888"
+          MonolithLength="1077248" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}039_D#2v16.wav"
+          Duplicate="0" SampleEnd="1066119" MonolithOffset="124379136"
+          MonolithLength="1069056" SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v01.wav"
+          Duplicate="0" SampleEnd="942390" MonolithOffset="125448192" MonolithLength="946176"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v02.wav"
+          Duplicate="0" SampleEnd="942390" MonolithOffset="126394368" MonolithLength="946176"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v03.wav"
+          Duplicate="0" SampleEnd="993697" MonolithOffset="127340544" MonolithLength="995328"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v04.wav"
+          Duplicate="0" SampleEnd="991931" MonolithOffset="128335872" MonolithLength="995328"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v05.wav"
+          Duplicate="0" SampleEnd="991931" MonolithOffset="129331200" MonolithLength="995328"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v06.wav"
+          Duplicate="0" SampleEnd="974342" MonolithOffset="130326528" MonolithLength="974848"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v07.wav"
+          Duplicate="0" SampleEnd="981532" MonolithOffset="131301376" MonolithLength="983040"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v08.wav"
+          Duplicate="0" SampleEnd="981341" MonolithOffset="132284416" MonolithLength="983040"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v09.wav"
+          Duplicate="0" SampleEnd="973692" MonolithOffset="133267456" MonolithLength="974848"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v10.wav"
+          Duplicate="0" SampleEnd="973692" MonolithOffset="134242304" MonolithLength="974848"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v11.wav"
+          Duplicate="0" SampleEnd="986277" MonolithOffset="135217152" MonolithLength="987136"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v12.wav"
+          Duplicate="0" SampleEnd="986175" MonolithOffset="136204288" MonolithLength="987136"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v13.wav"
+          Duplicate="0" SampleEnd="978396" MonolithOffset="137191424" MonolithLength="978944"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v14.wav"
+          Duplicate="0" SampleEnd="977032" MonolithOffset="138170368" MonolithLength="978944"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v15.wav"
+          Duplicate="0" SampleEnd="976984" MonolithOffset="139149312" MonolithLength="978944"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}042_F#2v16.wav"
+          Duplicate="0" SampleEnd="990415" MonolithOffset="140128256" MonolithLength="991232"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v01.wav"
+          Duplicate="0" SampleEnd="771881" MonolithOffset="141119488" MonolithLength="774144"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v02.wav"
+          Duplicate="0" SampleEnd="773474" MonolithOffset="141893632" MonolithLength="774144"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v03.wav"
+          Duplicate="0" SampleEnd="759007" MonolithOffset="142667776" MonolithLength="761856"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v04.wav"
+          Duplicate="0" SampleEnd="777359" MonolithOffset="143429632" MonolithLength="778240"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v05.wav"
+          Duplicate="0" SampleEnd="767855" MonolithOffset="144207872" MonolithLength="770048"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v06.wav"
+          Duplicate="0" SampleEnd="760187" MonolithOffset="144977920" MonolithLength="761856"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v07.wav"
+          Duplicate="0" SampleEnd="765664" MonolithOffset="145739776" MonolithLength="765952"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v08.wav"
+          Duplicate="0" SampleEnd="764600" MonolithOffset="146505728" MonolithLength="765952"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v09.wav"
+          Duplicate="0" SampleEnd="777396" MonolithOffset="147271680" MonolithLength="778240"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v10.wav"
+          Duplicate="0" SampleEnd="760500" MonolithOffset="148049920" MonolithLength="761856"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v11.wav"
+          Duplicate="0" SampleEnd="760500" MonolithOffset="148811776" MonolithLength="761856"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v12.wav"
+          Duplicate="0" SampleEnd="775776" MonolithOffset="149573632" MonolithLength="778240"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v13.wav"
+          Duplicate="0" SampleEnd="777908" MonolithOffset="150351872" MonolithLength="778240"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v14.wav"
+          Duplicate="0" SampleEnd="763890" MonolithOffset="151130112" MonolithLength="765952"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v15.wav"
+          Duplicate="0" SampleEnd="780250" MonolithOffset="151896064" MonolithLength="782336"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}045_A2v16.wav"
+          Duplicate="0" SampleEnd="781068" MonolithOffset="152678400" MonolithLength="782336"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v01.wav"
+          Duplicate="0" SampleEnd="649892" MonolithOffset="153460736" MonolithLength="651264"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v02.wav"
+          Duplicate="0" SampleEnd="651194" MonolithOffset="154112000" MonolithLength="651264"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v03.wav"
+          Duplicate="0" SampleEnd="639034" MonolithOffset="154763264" MonolithLength="643072"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v04.wav"
+          Duplicate="0" SampleEnd="654471" MonolithOffset="155406336" MonolithLength="655360"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v05.wav"
+          Duplicate="0" SampleEnd="646483" MonolithOffset="156061696" MonolithLength="647168"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v06.wav"
+          Duplicate="0" SampleEnd="640040" MonolithOffset="156708864" MonolithLength="643072"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v07.wav"
+          Duplicate="0" SampleEnd="644645" MonolithOffset="157351936" MonolithLength="647168"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v08.wav"
+          Duplicate="0" SampleEnd="643749" MonolithOffset="157999104" MonolithLength="647168"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v09.wav"
+          Duplicate="0" SampleEnd="654528" MonolithOffset="158646272" MonolithLength="655360"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v10.wav"
+          Duplicate="0" SampleEnd="640304" MonolithOffset="159301632" MonolithLength="643072"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v11.wav"
+          Duplicate="0" SampleEnd="640304" MonolithOffset="159944704" MonolithLength="643072"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v12.wav"
+          Duplicate="0" SampleEnd="653158" MonolithOffset="160587776" MonolithLength="655360"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v13.wav"
+          Duplicate="0" SampleEnd="654953" MonolithOffset="161243136" MonolithLength="655360"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v14.wav"
+          Duplicate="0" SampleEnd="643164" MonolithOffset="161898496" MonolithLength="647168"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v15.wav"
+          Duplicate="0" SampleEnd="656925" MonolithOffset="162545664" MonolithLength="659456"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}048_C3v16.wav"
+          Duplicate="0" SampleEnd="657639" MonolithOffset="163205120" MonolithLength="659456"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v01.wav"
+          Duplicate="0" SampleEnd="629171" MonolithOffset="163864576" MonolithLength="630784"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v02.wav"
+          Duplicate="0" SampleEnd="708716" MonolithOffset="164495360" MonolithLength="712704"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v03.wav"
+          Duplicate="0" SampleEnd="773317" MonolithOffset="165208064" MonolithLength="774144"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v04.wav"
+          Duplicate="0" SampleEnd="764070" MonolithOffset="165982208" MonolithLength="765952"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v05.wav"
+          Duplicate="0" SampleEnd="764070" MonolithOffset="166748160" MonolithLength="765952"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v06.wav"
+          Duplicate="0" SampleEnd="781346" MonolithOffset="167514112" MonolithLength="782336"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v07.wav"
+          Duplicate="0" SampleEnd="763170" MonolithOffset="168296448" MonolithLength="765952"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v08.wav"
+          Duplicate="0" SampleEnd="771432" MonolithOffset="169062400" MonolithLength="774144"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v09.wav"
+          Duplicate="0" SampleEnd="768652" MonolithOffset="169836544" MonolithLength="770048"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v10.wav"
+          Duplicate="0" SampleEnd="781426" MonolithOffset="170606592" MonolithLength="782336"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v11.wav"
+          Duplicate="0" SampleEnd="781680" MonolithOffset="171388928" MonolithLength="782336"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v12.wav"
+          Duplicate="0" SampleEnd="760227" MonolithOffset="172171264" MonolithLength="761856"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v13.wav"
+          Duplicate="0" SampleEnd="760699" MonolithOffset="172933120" MonolithLength="761856"
+          SampleRate="48000.0" MonolithSplitIndex="0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v14.wav"
+          Duplicate="0" SampleEnd="780932" MonolithOffset="0" MonolithLength="782336"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v15.wav"
+          Duplicate="0" SampleEnd="782122" MonolithOffset="782336" MonolithLength="782336"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}051_D#3v16.wav"
+          Duplicate="0" SampleEnd="772651" MonolithOffset="1564672" MonolithLength="774144"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v01.wav"
+          Duplicate="0" SampleEnd="743517" MonolithOffset="2338816" MonolithLength="745472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v02.wav"
+          Duplicate="0" SampleEnd="663673" MonolithOffset="3084288" MonolithLength="667648"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v03.wav"
+          Duplicate="0" SampleEnd="770276" MonolithOffset="3751936" MonolithLength="774144"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v04.wav"
+          Duplicate="0" SampleEnd="771194" MonolithOffset="4526080" MonolithLength="774144"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v05.wav"
+          Duplicate="0" SampleEnd="771194" MonolithOffset="5300224" MonolithLength="774144"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v06.wav"
+          Duplicate="0" SampleEnd="770700" MonolithOffset="6074368" MonolithLength="774144"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v07.wav"
+          Duplicate="0" SampleEnd="779562" MonolithOffset="6848512" MonolithLength="782336"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v08.wav"
+          Duplicate="0" SampleEnd="774959" MonolithOffset="7630848" MonolithLength="778240"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v09.wav"
+          Duplicate="0" SampleEnd="777643" MonolithOffset="8409088" MonolithLength="778240"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v10.wav"
+          Duplicate="0" SampleEnd="774261" MonolithOffset="9187328" MonolithLength="778240"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v11.wav"
+          Duplicate="0" SampleEnd="762941" MonolithOffset="9965568" MonolithLength="765952"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v12.wav"
+          Duplicate="0" SampleEnd="764941" MonolithOffset="10731520" MonolithLength="765952"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v13.wav"
+          Duplicate="0" SampleEnd="767530" MonolithOffset="11497472" MonolithLength="770048"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v14.wav"
+          Duplicate="0" SampleEnd="767003" MonolithOffset="12267520" MonolithLength="770048"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v15.wav"
+          Duplicate="0" SampleEnd="767291" MonolithOffset="13037568" MonolithLength="770048"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}054_F#3v16.wav"
+          Duplicate="0" SampleEnd="767291" MonolithOffset="13807616" MonolithLength="770048"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v01.wav"
+          Duplicate="0" SampleEnd="680827" MonolithOffset="14577664" MonolithLength="684032"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v02.wav"
+          Duplicate="0" SampleEnd="711081" MonolithOffset="15261696" MonolithLength="712704"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v03.wav"
+          Duplicate="0" SampleEnd="747729" MonolithOffset="15974400" MonolithLength="749568"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v04.wav"
+          Duplicate="0" SampleEnd="744216" MonolithOffset="16723968" MonolithLength="745472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v05.wav"
+          Duplicate="0" SampleEnd="764368" MonolithOffset="17469440" MonolithLength="765952"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v06.wav"
+          Duplicate="0" SampleEnd="749178" MonolithOffset="18235392" MonolithLength="749568"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v07.wav"
+          Duplicate="0" SampleEnd="751293" MonolithOffset="18984960" MonolithLength="753664"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v08.wav"
+          Duplicate="0" SampleEnd="731187" MonolithOffset="19738624" MonolithLength="733184"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v09.wav"
+          Duplicate="0" SampleEnd="737455" MonolithOffset="20471808" MonolithLength="741376"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v10.wav"
+          Duplicate="0" SampleEnd="737455" MonolithOffset="21213184" MonolithLength="741376"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v11.wav"
+          Duplicate="0" SampleEnd="734685" MonolithOffset="21954560" MonolithLength="737280"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v12.wav"
+          Duplicate="0" SampleEnd="736758" MonolithOffset="22691840" MonolithLength="737280"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v13.wav"
+          Duplicate="0" SampleEnd="736758" MonolithOffset="23429120" MonolithLength="737280"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v14.wav"
+          Duplicate="0" SampleEnd="736094" MonolithOffset="24166400" MonolithLength="737280"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v15.wav"
+          Duplicate="0" SampleEnd="755860" MonolithOffset="24903680" MonolithLength="757760"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}057_A3v16.wav"
+          Duplicate="0" SampleEnd="762246" MonolithOffset="25661440" MonolithLength="765952"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v01.wav"
+          Duplicate="0" SampleEnd="577976" MonolithOffset="26427392" MonolithLength="581632"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v02.wav"
+          Duplicate="0" SampleEnd="651967" MonolithOffset="27009024" MonolithLength="655360"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v03.wav"
+          Duplicate="0" SampleEnd="760224" MonolithOffset="27664384" MonolithLength="761856"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v04.wav"
+          Duplicate="0" SampleEnd="754589" MonolithOffset="28426240" MonolithLength="757760"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v05.wav"
+          Duplicate="0" SampleEnd="745728" MonolithOffset="29184000" MonolithLength="749568"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v06.wav"
+          Duplicate="0" SampleEnd="763811" MonolithOffset="29933568" MonolithLength="765952"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v07.wav"
+          Duplicate="0" SampleEnd="751855" MonolithOffset="30699520" MonolithLength="753664"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v08.wav"
+          Duplicate="0" SampleEnd="776496" MonolithOffset="31453184" MonolithLength="778240"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v09.wav"
+          Duplicate="0" SampleEnd="777169" MonolithOffset="32231424" MonolithLength="778240"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v10.wav"
+          Duplicate="0" SampleEnd="777169" MonolithOffset="33009664" MonolithLength="778240"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v11.wav"
+          Duplicate="0" SampleEnd="777169" MonolithOffset="33787904" MonolithLength="778240"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v12.wav"
+          Duplicate="0" SampleEnd="775148" MonolithOffset="34566144" MonolithLength="778240"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v13.wav"
+          Duplicate="0" SampleEnd="754005" MonolithOffset="35344384" MonolithLength="757760"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v14.wav"
+          Duplicate="0" SampleEnd="747819" MonolithOffset="36102144" MonolithLength="749568"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v15.wav"
+          Duplicate="0" SampleEnd="758979" MonolithOffset="36851712" MonolithLength="761856"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}060_C4v16.wav"
+          Duplicate="0" SampleEnd="744404" MonolithOffset="37613568" MonolithLength="745472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v01.wav"
+          Duplicate="0" SampleEnd="640572" MonolithOffset="38359040" MonolithLength="643072"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v02.wav"
+          Duplicate="0" SampleEnd="646579" MonolithOffset="39002112" MonolithLength="647168"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v03.wav"
+          Duplicate="0" SampleEnd="678586" MonolithOffset="39649280" MonolithLength="679936"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v04.wav"
+          Duplicate="0" SampleEnd="726371" MonolithOffset="40329216" MonolithLength="729088"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v05.wav"
+          Duplicate="0" SampleEnd="710523" MonolithOffset="41058304" MonolithLength="712704"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v06.wav"
+          Duplicate="0" SampleEnd="707754" MonolithOffset="41771008" MonolithLength="708608"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v07.wav"
+          Duplicate="0" SampleEnd="722618" MonolithOffset="42479616" MonolithLength="724992"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v08.wav"
+          Duplicate="0" SampleEnd="759119" MonolithOffset="43204608" MonolithLength="761856"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v09.wav"
+          Duplicate="0" SampleEnd="721180" MonolithOffset="43966464" MonolithLength="724992"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v10.wav"
+          Duplicate="0" SampleEnd="706485" MonolithOffset="44691456" MonolithLength="708608"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v11.wav"
+          Duplicate="0" SampleEnd="715172" MonolithOffset="45400064" MonolithLength="716800"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v12.wav"
+          Duplicate="0" SampleEnd="746671" MonolithOffset="46116864" MonolithLength="749568"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v13.wav"
+          Duplicate="0" SampleEnd="754849" MonolithOffset="46866432" MonolithLength="757760"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v14.wav"
+          Duplicate="0" SampleEnd="760155" MonolithOffset="47624192" MonolithLength="761856"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v15.wav"
+          Duplicate="0" SampleEnd="717773" MonolithOffset="48386048" MonolithLength="720896"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}063_D#4v16.wav"
+          Duplicate="0" SampleEnd="711504" MonolithOffset="49106944" MonolithLength="712704"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v01.wav"
+          Duplicate="0" SampleEnd="594522" MonolithOffset="49819648" MonolithLength="598016"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v02.wav"
+          Duplicate="0" SampleEnd="638981" MonolithOffset="50417664" MonolithLength="643072"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v03.wav"
+          Duplicate="0" SampleEnd="647394" MonolithOffset="51060736" MonolithLength="651264"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v04.wav"
+          Duplicate="0" SampleEnd="629583" MonolithOffset="51712000" MonolithLength="630784"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v05.wav"
+          Duplicate="0" SampleEnd="687460" MonolithOffset="52342784" MonolithLength="688128"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v06.wav"
+          Duplicate="0" SampleEnd="699341" MonolithOffset="53030912" MonolithLength="700416"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v07.wav"
+          Duplicate="0" SampleEnd="703917" MonolithOffset="53731328" MonolithLength="704512"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v08.wav"
+          Duplicate="0" SampleEnd="709241" MonolithOffset="54435840" MonolithLength="712704"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v09.wav"
+          Duplicate="0" SampleEnd="697301" MonolithOffset="55148544" MonolithLength="700416"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v10.wav"
+          Duplicate="0" SampleEnd="686164" MonolithOffset="55848960" MonolithLength="688128"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v11.wav"
+          Duplicate="0" SampleEnd="717380" MonolithOffset="56537088" MonolithLength="720896"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v12.wav"
+          Duplicate="0" SampleEnd="684868" MonolithOffset="57257984" MonolithLength="688128"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v13.wav"
+          Duplicate="0" SampleEnd="717133" MonolithOffset="57946112" MonolithLength="720896"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v14.wav"
+          Duplicate="0" SampleEnd="705102" MonolithOffset="58667008" MonolithLength="708608"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v15.wav"
+          Duplicate="0" SampleEnd="694808" MonolithOffset="59375616" MonolithLength="696320"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}066_F#4v16.wav"
+          Duplicate="0" SampleEnd="694808" MonolithOffset="60071936" MonolithLength="696320"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v01.wav"
+          Duplicate="0" SampleEnd="633443" MonolithOffset="60768256" MonolithLength="634880"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v02.wav"
+          Duplicate="0" SampleEnd="628071" MonolithOffset="61403136" MonolithLength="630784"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v03.wav"
+          Duplicate="0" SampleEnd="653763" MonolithOffset="62033920" MonolithLength="655360"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v04.wav"
+          Duplicate="0" SampleEnd="653763" MonolithOffset="62689280" MonolithLength="655360"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v05.wav"
+          Duplicate="0" SampleEnd="648626" MonolithOffset="63344640" MonolithLength="651264"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v06.wav"
+          Duplicate="0" SampleEnd="654535" MonolithOffset="63995904" MonolithLength="655360"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v07.wav"
+          Duplicate="0" SampleEnd="645812" MonolithOffset="64651264" MonolithLength="647168"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v08.wav"
+          Duplicate="0" SampleEnd="639166" MonolithOffset="65298432" MonolithLength="643072"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v09.wav"
+          Duplicate="0" SampleEnd="649932" MonolithOffset="65941504" MonolithLength="651264"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v10.wav"
+          Duplicate="0" SampleEnd="662722" MonolithOffset="66592768" MonolithLength="663552"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v11.wav"
+          Duplicate="0" SampleEnd="661733" MonolithOffset="67256320" MonolithLength="663552"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v12.wav"
+          Duplicate="0" SampleEnd="659354" MonolithOffset="67919872" MonolithLength="659456"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v13.wav"
+          Duplicate="0" SampleEnd="665506" MonolithOffset="68579328" MonolithLength="667648"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v14.wav"
+          Duplicate="0" SampleEnd="666314" MonolithOffset="69246976" MonolithLength="667648"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v15.wav"
+          Duplicate="0" SampleEnd="686064" MonolithOffset="69914624" MonolithLength="688128"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}069_A4v16.wav"
+          Duplicate="0" SampleEnd="716379" MonolithOffset="70602752" MonolithLength="716800"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v01.wav"
+          Duplicate="0" SampleEnd="643187" MonolithOffset="71319552" MonolithLength="647168"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v02.wav"
+          Duplicate="0" SampleEnd="692521" MonolithOffset="71966720" MonolithLength="696320"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v03.wav"
+          Duplicate="0" SampleEnd="694708" MonolithOffset="72663040" MonolithLength="696320"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v04.wav"
+          Duplicate="0" SampleEnd="694708" MonolithOffset="73359360" MonolithLength="696320"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v05.wav"
+          Duplicate="0" SampleEnd="735751" MonolithOffset="74055680" MonolithLength="737280"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v06.wav"
+          Duplicate="0" SampleEnd="735751" MonolithOffset="74792960" MonolithLength="737280"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v07.wav"
+          Duplicate="0" SampleEnd="762813" MonolithOffset="75530240" MonolithLength="765952"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v08.wav"
+          Duplicate="0" SampleEnd="755965" MonolithOffset="76296192" MonolithLength="757760"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v09.wav"
+          Duplicate="0" SampleEnd="760537" MonolithOffset="77053952" MonolithLength="761856"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v10.wav"
+          Duplicate="0" SampleEnd="747325" MonolithOffset="77815808" MonolithLength="749568"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v11.wav"
+          Duplicate="0" SampleEnd="756882" MonolithOffset="78565376" MonolithLength="757760"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v12.wav"
+          Duplicate="0" SampleEnd="755197" MonolithOffset="79323136" MonolithLength="757760"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v13.wav"
+          Duplicate="0" SampleEnd="708503" MonolithOffset="80080896" MonolithLength="708608"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v14.wav"
+          Duplicate="0" SampleEnd="744192" MonolithOffset="80789504" MonolithLength="745472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v15.wav"
+          Duplicate="0" SampleEnd="720898" MonolithOffset="81534976" MonolithLength="724992"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}072_C5v16.wav"
+          Duplicate="0" SampleEnd="733651" MonolithOffset="82259968" MonolithLength="737280"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v01.wav"
+          Duplicate="0" SampleEnd="598453" MonolithOffset="82997248" MonolithLength="602112"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v02.wav"
+          Duplicate="0" SampleEnd="610576" MonolithOffset="83599360" MonolithLength="614400"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v03.wav"
+          Duplicate="0" SampleEnd="607935" MonolithOffset="84213760" MonolithLength="610304"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v04.wav"
+          Duplicate="0" SampleEnd="622161" MonolithOffset="84824064" MonolithLength="622592"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v05.wav"
+          Duplicate="0" SampleEnd="622759" MonolithOffset="85446656" MonolithLength="626688"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v06.wav"
+          Duplicate="0" SampleEnd="603707" MonolithOffset="86073344" MonolithLength="606208"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v07.wav"
+          Duplicate="0" SampleEnd="620807" MonolithOffset="86679552" MonolithLength="622592"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v08.wav"
+          Duplicate="0" SampleEnd="630637" MonolithOffset="87302144" MonolithLength="630784"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v09.wav"
+          Duplicate="0" SampleEnd="623771" MonolithOffset="87932928" MonolithLength="626688"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v10.wav"
+          Duplicate="0" SampleEnd="637443" MonolithOffset="88559616" MonolithLength="638976"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v11.wav"
+          Duplicate="0" SampleEnd="641591" MonolithOffset="89198592" MonolithLength="643072"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v12.wav"
+          Duplicate="0" SampleEnd="614891" MonolithOffset="89841664" MonolithLength="618496"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v13.wav"
+          Duplicate="0" SampleEnd="641195" MonolithOffset="90460160" MonolithLength="643072"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v14.wav"
+          Duplicate="0" SampleEnd="636898" MonolithOffset="91103232" MonolithLength="638976"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v15.wav"
+          Duplicate="0" SampleEnd="636898" MonolithOffset="91742208" MonolithLength="638976"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}075_D#5v16.wav"
+          Duplicate="0" SampleEnd="636897" MonolithOffset="92381184" MonolithLength="638976"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v01.wav"
+          Duplicate="0" SampleEnd="535919" MonolithOffset="93020160" MonolithLength="536576"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v02.wav"
+          Duplicate="0" SampleEnd="543418" MonolithOffset="93556736" MonolithLength="544768"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v03.wav"
+          Duplicate="0" SampleEnd="558066" MonolithOffset="94101504" MonolithLength="561152"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v04.wav"
+          Duplicate="0" SampleEnd="569921" MonolithOffset="94662656" MonolithLength="573440"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v05.wav"
+          Duplicate="0" SampleEnd="583855" MonolithOffset="95236096" MonolithLength="585728"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v06.wav"
+          Duplicate="0" SampleEnd="587435" MonolithOffset="95821824" MonolithLength="589824"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v07.wav"
+          Duplicate="0" SampleEnd="571422" MonolithOffset="96411648" MonolithLength="573440"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v08.wav"
+          Duplicate="0" SampleEnd="575203" MonolithOffset="96985088" MonolithLength="577536"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v09.wav"
+          Duplicate="0" SampleEnd="558262" MonolithOffset="97562624" MonolithLength="561152"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v10.wav"
+          Duplicate="0" SampleEnd="563489" MonolithOffset="98123776" MonolithLength="565248"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v11.wav"
+          Duplicate="0" SampleEnd="563635" MonolithOffset="98689024" MonolithLength="565248"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v12.wav"
+          Duplicate="0" SampleEnd="553005" MonolithOffset="99254272" MonolithLength="557056"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v13.wav"
+          Duplicate="0" SampleEnd="589802" MonolithOffset="99811328" MonolithLength="589824"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v14.wav"
+          Duplicate="0" SampleEnd="575673" MonolithOffset="100401152" MonolithLength="577536"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v15.wav"
+          Duplicate="0" SampleEnd="575672" MonolithOffset="100978688" MonolithLength="577536"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}078_F#5v16.wav"
+          Duplicate="0" SampleEnd="575672" MonolithOffset="101556224" MonolithLength="577536"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v01.wav"
+          Duplicate="0" SampleEnd="328314" MonolithOffset="102133760" MonolithLength="331776"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v02.wav"
+          Duplicate="0" SampleEnd="328262" MonolithOffset="102465536" MonolithLength="331776"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v03.wav"
+          Duplicate="0" SampleEnd="328937" MonolithOffset="102797312" MonolithLength="331776"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v04.wav"
+          Duplicate="0" SampleEnd="412987" MonolithOffset="103129088" MonolithLength="413696"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v05.wav"
+          Duplicate="0" SampleEnd="470843" MonolithOffset="103542784" MonolithLength="471040"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v06.wav"
+          Duplicate="0" SampleEnd="500982" MonolithOffset="104013824" MonolithLength="503808"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v07.wav"
+          Duplicate="0" SampleEnd="506043" MonolithOffset="104517632" MonolithLength="507904"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v08.wav"
+          Duplicate="0" SampleEnd="504128" MonolithOffset="105025536" MonolithLength="507904"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v09.wav"
+          Duplicate="0" SampleEnd="506887" MonolithOffset="105533440" MonolithLength="507904"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v10.wav"
+          Duplicate="0" SampleEnd="497034" MonolithOffset="106041344" MonolithLength="499712"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v11.wav"
+          Duplicate="0" SampleEnd="498390" MonolithOffset="106541056" MonolithLength="499712"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v12.wav"
+          Duplicate="0" SampleEnd="498390" MonolithOffset="107040768" MonolithLength="499712"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v13.wav"
+          Duplicate="0" SampleEnd="489331" MonolithOffset="107540480" MonolithLength="491520"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v14.wav"
+          Duplicate="0" SampleEnd="510667" MonolithOffset="108032000" MonolithLength="512000"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v15.wav"
+          Duplicate="0" SampleEnd="493756" MonolithOffset="108544000" MonolithLength="495616"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}081_A5v16.wav"
+          Duplicate="0" SampleEnd="506760" MonolithOffset="109039616" MonolithLength="507904"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v01.wav"
+          Duplicate="0" SampleEnd="249554" MonolithOffset="109547520" MonolithLength="249856"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v02.wav"
+          Duplicate="0" SampleEnd="237925" MonolithOffset="109797376" MonolithLength="241664"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v03.wav"
+          Duplicate="0" SampleEnd="237925" MonolithOffset="110039040" MonolithLength="241664"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v04.wav"
+          Duplicate="0" SampleEnd="260843" MonolithOffset="110280704" MonolithLength="262144"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v05.wav"
+          Duplicate="0" SampleEnd="286832" MonolithOffset="110542848" MonolithLength="290816"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v06.wav"
+          Duplicate="0" SampleEnd="286832" MonolithOffset="110833664" MonolithLength="290816"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v07.wav"
+          Duplicate="0" SampleEnd="295174" MonolithOffset="111124480" MonolithLength="299008"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v08.wav"
+          Duplicate="0" SampleEnd="298407" MonolithOffset="111423488" MonolithLength="299008"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v09.wav"
+          Duplicate="0" SampleEnd="290942" MonolithOffset="111722496" MonolithLength="294912"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v10.wav"
+          Duplicate="0" SampleEnd="290942" MonolithOffset="112017408" MonolithLength="294912"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v11.wav"
+          Duplicate="0" SampleEnd="290868" MonolithOffset="112312320" MonolithLength="294912"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v12.wav"
+          Duplicate="0" SampleEnd="299684" MonolithOffset="112607232" MonolithLength="303104"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v13.wav"
+          Duplicate="0" SampleEnd="299714" MonolithOffset="112910336" MonolithLength="303104"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v14.wav"
+          Duplicate="0" SampleEnd="290169" MonolithOffset="113213440" MonolithLength="290816"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v15.wav"
+          Duplicate="0" SampleEnd="299030" MonolithOffset="113504256" MonolithLength="303104"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}084_C6v16.wav"
+          Duplicate="0" SampleEnd="295581" MonolithOffset="113807360" MonolithLength="299008"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v01.wav"
+          Duplicate="0" SampleEnd="331508" MonolithOffset="114106368" MonolithLength="331776"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v02.wav"
+          Duplicate="0" SampleEnd="321176" MonolithOffset="114438144" MonolithLength="323584"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v03.wav"
+          Duplicate="0" SampleEnd="321176" MonolithOffset="114761728" MonolithLength="323584"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v04.wav"
+          Duplicate="0" SampleEnd="315285" MonolithOffset="115085312" MonolithLength="315392"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v05.wav"
+          Duplicate="0" SampleEnd="326243" MonolithOffset="115400704" MonolithLength="327680"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v06.wav"
+          Duplicate="0" SampleEnd="311790" MonolithOffset="115728384" MonolithLength="315392"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v07.wav"
+          Duplicate="0" SampleEnd="320545" MonolithOffset="116043776" MonolithLength="323584"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v08.wav"
+          Duplicate="0" SampleEnd="321367" MonolithOffset="116367360" MonolithLength="323584"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v09.wav"
+          Duplicate="0" SampleEnd="318111" MonolithOffset="116690944" MonolithLength="319488"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v10.wav"
+          Duplicate="0" SampleEnd="319930" MonolithOffset="117010432" MonolithLength="323584"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v11.wav"
+          Duplicate="0" SampleEnd="331143" MonolithOffset="117334016" MonolithLength="331776"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v12.wav"
+          Duplicate="0" SampleEnd="327246" MonolithOffset="117665792" MonolithLength="327680"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v13.wav"
+          Duplicate="0" SampleEnd="325384" MonolithOffset="117993472" MonolithLength="327680"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v14.wav"
+          Duplicate="0" SampleEnd="314041" MonolithOffset="118321152" MonolithLength="315392"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v15.wav"
+          Duplicate="0" SampleEnd="326813" MonolithOffset="118636544" MonolithLength="327680"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}087_D#6v16.wav"
+          Duplicate="0" SampleEnd="309683" MonolithOffset="118964224" MonolithLength="311296"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v01.wav"
+          Duplicate="0" SampleEnd="205951" MonolithOffset="119275520" MonolithLength="208896"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v02.wav"
+          Duplicate="0" SampleEnd="208068" MonolithOffset="119484416" MonolithLength="208896"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v03.wav"
+          Duplicate="0" SampleEnd="262167" MonolithOffset="119693312" MonolithLength="266240"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v04.wav"
+          Duplicate="0" SampleEnd="265388" MonolithOffset="119959552" MonolithLength="266240"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v05.wav"
+          Duplicate="0" SampleEnd="268736" MonolithOffset="120225792" MonolithLength="270336"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v06.wav"
+          Duplicate="0" SampleEnd="288378" MonolithOffset="120496128" MonolithLength="290816"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v07.wav"
+          Duplicate="0" SampleEnd="294645" MonolithOffset="120786944" MonolithLength="294912"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v08.wav"
+          Duplicate="0" SampleEnd="280620" MonolithOffset="121081856" MonolithLength="282624"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v09.wav"
+          Duplicate="0" SampleEnd="280919" MonolithOffset="121364480" MonolithLength="282624"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v10.wav"
+          Duplicate="0" SampleEnd="295120" MonolithOffset="121647104" MonolithLength="299008"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v11.wav"
+          Duplicate="0" SampleEnd="286947" MonolithOffset="121946112" MonolithLength="290816"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v12.wav"
+          Duplicate="0" SampleEnd="294058" MonolithOffset="122236928" MonolithLength="294912"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v13.wav"
+          Duplicate="0" SampleEnd="272965" MonolithOffset="122531840" MonolithLength="274432"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v14.wav"
+          Duplicate="0" SampleEnd="292864" MonolithOffset="122806272" MonolithLength="294912"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v15.wav"
+          Duplicate="0" SampleEnd="277961" MonolithOffset="123101184" MonolithLength="278528"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}090_F#6v16.wav"
+          Duplicate="0" SampleEnd="287086" MonolithOffset="123379712" MonolithLength="290816"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v01.wav"
+          Duplicate="0" SampleEnd="261454" MonolithOffset="123670528" MonolithLength="262144"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v02.wav"
+          Duplicate="0" SampleEnd="279994" MonolithOffset="123932672" MonolithLength="282624"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v03.wav"
+          Duplicate="0" SampleEnd="276964" MonolithOffset="124215296" MonolithLength="278528"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v04.wav"
+          Duplicate="0" SampleEnd="303994" MonolithOffset="124493824" MonolithLength="307200"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v05.wav"
+          Duplicate="0" SampleEnd="324821" MonolithOffset="124801024" MonolithLength="327680"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v06.wav"
+          Duplicate="0" SampleEnd="316321" MonolithOffset="125128704" MonolithLength="319488"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v07.wav"
+          Duplicate="0" SampleEnd="324543" MonolithOffset="125448192" MonolithLength="327680"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v08.wav"
+          Duplicate="0" SampleEnd="326402" MonolithOffset="125775872" MonolithLength="327680"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v09.wav"
+          Duplicate="0" SampleEnd="321824" MonolithOffset="126103552" MonolithLength="323584"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v10.wav"
+          Duplicate="0" SampleEnd="323573" MonolithOffset="126427136" MonolithLength="323584"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v11.wav"
+          Duplicate="0" SampleEnd="314325" MonolithOffset="126750720" MonolithLength="315392"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v12.wav"
+          Duplicate="0" SampleEnd="322658" MonolithOffset="127066112" MonolithLength="323584"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v13.wav"
+          Duplicate="0" SampleEnd="316141" MonolithOffset="127389696" MonolithLength="319488"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v14.wav"
+          Duplicate="0" SampleEnd="324283" MonolithOffset="127709184" MonolithLength="327680"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v15.wav"
+          Duplicate="0" SampleEnd="327691" MonolithOffset="128036864" MonolithLength="331776"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}093_A6v16.wav"
+          Duplicate="0" SampleEnd="327690" MonolithOffset="128368640" MonolithLength="331776"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v01.wav"
+          Duplicate="0" SampleEnd="198260" MonolithOffset="128700416" MonolithLength="200704"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v02.wav"
+          Duplicate="0" SampleEnd="198145" MonolithOffset="128901120" MonolithLength="200704"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v03.wav"
+          Duplicate="0" SampleEnd="211061" MonolithOffset="129101824" MonolithLength="212992"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v04.wav"
+          Duplicate="0" SampleEnd="194377" MonolithOffset="129314816" MonolithLength="196608"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v05.wav"
+          Duplicate="0" SampleEnd="200134" MonolithOffset="129511424" MonolithLength="200704"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v06.wav"
+          Duplicate="0" SampleEnd="200920" MonolithOffset="129712128" MonolithLength="204800"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v07.wav"
+          Duplicate="0" SampleEnd="210637" MonolithOffset="129916928" MonolithLength="212992"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v08.wav"
+          Duplicate="0" SampleEnd="195513" MonolithOffset="130129920" MonolithLength="196608"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v09.wav"
+          Duplicate="0" SampleEnd="195750" MonolithOffset="130326528" MonolithLength="196608"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v10.wav"
+          Duplicate="0" SampleEnd="217185" MonolithOffset="130523136" MonolithLength="221184"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v11.wav"
+          Duplicate="0" SampleEnd="208492" MonolithOffset="130744320" MonolithLength="208896"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v12.wav"
+          Duplicate="0" SampleEnd="214856" MonolithOffset="130953216" MonolithLength="217088"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v13.wav"
+          Duplicate="0" SampleEnd="217547" MonolithOffset="131170304" MonolithLength="221184"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v14.wav"
+          Duplicate="0" SampleEnd="195190" MonolithOffset="131391488" MonolithLength="196608"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v15.wav"
+          Duplicate="0" SampleEnd="202104" MonolithOffset="131588096" MonolithLength="204800"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}096_C7v16.wav"
+          Duplicate="0" SampleEnd="209155" MonolithOffset="131792896" MonolithLength="212992"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v01.wav"
+          Duplicate="0" SampleEnd="242538" MonolithOffset="132005888" MonolithLength="245760"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v02.wav"
+          Duplicate="0" SampleEnd="243958" MonolithOffset="132251648" MonolithLength="245760"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v03.wav"
+          Duplicate="0" SampleEnd="240561" MonolithOffset="132497408" MonolithLength="241664"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v04.wav"
+          Duplicate="0" SampleEnd="231363" MonolithOffset="132739072" MonolithLength="233472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v05.wav"
+          Duplicate="0" SampleEnd="230453" MonolithOffset="132972544" MonolithLength="233472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v06.wav"
+          Duplicate="0" SampleEnd="224686" MonolithOffset="133206016" MonolithLength="225280"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v07.wav"
+          Duplicate="0" SampleEnd="229639" MonolithOffset="133431296" MonolithLength="233472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v08.wav"
+          Duplicate="0" SampleEnd="233516" MonolithOffset="133664768" MonolithLength="237568"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v09.wav"
+          Duplicate="0" SampleEnd="229317" MonolithOffset="133902336" MonolithLength="229376"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v10.wav"
+          Duplicate="0" SampleEnd="232894" MonolithOffset="134131712" MonolithLength="233472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v11.wav"
+          Duplicate="0" SampleEnd="244893" MonolithOffset="134365184" MonolithLength="245760"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v12.wav"
+          Duplicate="0" SampleEnd="241135" MonolithOffset="134610944" MonolithLength="241664"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v13.wav"
+          Duplicate="0" SampleEnd="225730" MonolithOffset="134852608" MonolithLength="229376"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v14.wav"
+          Duplicate="0" SampleEnd="229474" MonolithOffset="135081984" MonolithLength="233472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v15.wav"
+          Duplicate="0" SampleEnd="245676" MonolithOffset="135315456" MonolithLength="245760"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}099_D#7v16.wav"
+          Duplicate="0" SampleEnd="245675" MonolithOffset="135561216" MonolithLength="245760"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v01.wav"
+          Duplicate="0" SampleEnd="231725" MonolithOffset="135806976" MonolithLength="233472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v02.wav"
+          Duplicate="0" SampleEnd="217874" MonolithOffset="136040448" MonolithLength="221184"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v03.wav"
+          Duplicate="0" SampleEnd="220723" MonolithOffset="136261632" MonolithLength="221184"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v04.wav"
+          Duplicate="0" SampleEnd="227891" MonolithOffset="136482816" MonolithLength="229376"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v05.wav"
+          Duplicate="0" SampleEnd="218473" MonolithOffset="136712192" MonolithLength="221184"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v06.wav"
+          Duplicate="0" SampleEnd="217053" MonolithOffset="136933376" MonolithLength="217088"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v07.wav"
+          Duplicate="0" SampleEnd="220603" MonolithOffset="137150464" MonolithLength="221184"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v08.wav"
+          Duplicate="0" SampleEnd="231315" MonolithOffset="137371648" MonolithLength="233472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v09.wav"
+          Duplicate="0" SampleEnd="213857" MonolithOffset="137605120" MonolithLength="217088"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v10.wav"
+          Duplicate="0" SampleEnd="226605" MonolithOffset="137822208" MonolithLength="229376"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v11.wav"
+          Duplicate="0" SampleEnd="231478" MonolithOffset="138051584" MonolithLength="233472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v12.wav"
+          Duplicate="0" SampleEnd="229494" MonolithOffset="138285056" MonolithLength="233472"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v13.wav"
+          Duplicate="0" SampleEnd="222535" MonolithOffset="138518528" MonolithLength="225280"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v14.wav"
+          Duplicate="0" SampleEnd="225382" MonolithOffset="138743808" MonolithLength="229376"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v15.wav"
+          Duplicate="0" SampleEnd="228174" MonolithOffset="138973184" MonolithLength="229376"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_F#7v16.wav"
+          Duplicate="0" SampleEnd="215780" MonolithOffset="139202560" MonolithLength="217088"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v01.wav"
+          Duplicate="0" SampleEnd="169824" MonolithOffset="139419648" MonolithLength="172032"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v02.wav"
+          Duplicate="0" SampleEnd="183979" MonolithOffset="139591680" MonolithLength="184320"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v03.wav"
+          Duplicate="0" SampleEnd="185307" MonolithOffset="139776000" MonolithLength="188416"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v04.wav"
+          Duplicate="0" SampleEnd="185307" MonolithOffset="139964416" MonolithLength="188416"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v05.wav"
+          Duplicate="0" SampleEnd="182558" MonolithOffset="140152832" MonolithLength="184320"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v06.wav"
+          Duplicate="0" SampleEnd="180500" MonolithOffset="140337152" MonolithLength="184320"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v07.wav"
+          Duplicate="0" SampleEnd="172321" MonolithOffset="140521472" MonolithLength="176128"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v08.wav"
+          Duplicate="0" SampleEnd="193395" MonolithOffset="140697600" MonolithLength="196608"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v09.wav"
+          Duplicate="0" SampleEnd="175379" MonolithOffset="140894208" MonolithLength="176128"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v10.wav"
+          Duplicate="0" SampleEnd="185386" MonolithOffset="141070336" MonolithLength="188416"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v11.wav"
+          Duplicate="0" SampleEnd="183325" MonolithOffset="141258752" MonolithLength="184320"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v12.wav"
+          Duplicate="0" SampleEnd="181162" MonolithOffset="141443072" MonolithLength="184320"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v13.wav"
+          Duplicate="0" SampleEnd="182119" MonolithOffset="141627392" MonolithLength="184320"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v14.wav"
+          Duplicate="0" SampleEnd="169720" MonolithOffset="141811712" MonolithLength="172032"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v15.wav"
+          Duplicate="0" SampleEnd="170822" MonolithOffset="141983744" MonolithLength="172032"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_A7v16.wav"
+          Duplicate="0" SampleEnd="170821" MonolithOffset="142155776" MonolithLength="172032"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="1" HiVel="26" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v01.wav"
+          Duplicate="0" SampleEnd="151696" MonolithOffset="142327808" MonolithLength="155648"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="27" HiVel="33" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v02.wav"
+          Duplicate="0" SampleEnd="158106" MonolithOffset="142483456" MonolithLength="159744"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="34" HiVel="37" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v03.wav"
+          Duplicate="0" SampleEnd="137110" MonolithOffset="142643200" MonolithLength="139264"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="38" HiVel="43" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v04.wav"
+          Duplicate="0" SampleEnd="137465" MonolithOffset="142782464" MonolithLength="139264"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="44" HiVel="47" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v05.wav"
+          Duplicate="0" SampleEnd="135737" MonolithOffset="142921728" MonolithLength="139264"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="48" HiVel="52" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v06.wav"
+          Duplicate="0" SampleEnd="179192" MonolithOffset="143060992" MonolithLength="180224"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="53" HiVel="58" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v07.wav"
+          Duplicate="0" SampleEnd="175579" MonolithOffset="143241216" MonolithLength="176128"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="59" HiVel="64" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v08.wav"
+          Duplicate="0" SampleEnd="190208" MonolithOffset="143417344" MonolithLength="192512"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="65" HiVel="72" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v09.wav"
+          Duplicate="0" SampleEnd="187969" MonolithOffset="143609856" MonolithLength="188416"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="73" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v10.wav"
+          Duplicate="0" SampleEnd="181878" MonolithOffset="143798272" MonolithLength="184320"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="81" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v11.wav"
+          Duplicate="0" SampleEnd="189160" MonolithOffset="143982592" MonolithLength="192512"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="89" HiVel="96" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v12.wav"
+          Duplicate="0" SampleEnd="176090" MonolithOffset="144175104" MonolithLength="176128"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="97" HiVel="104" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v13.wav"
+          Duplicate="0" SampleEnd="192934" MonolithOffset="144351232" MonolithLength="196608"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="105" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v14.wav"
+          Duplicate="0" SampleEnd="197074" MonolithOffset="144547840" MonolithLength="200704"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="113" HiVel="120" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v15.wav"
+          Duplicate="0" SampleEnd="196589" MonolithOffset="144748544" MonolithLength="196608"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+  <sample Root="108" LoKey="107" HiKey="108" LoVel="121" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_C8v16.wav"
+          Duplicate="0" SampleEnd="178288" MonolithOffset="144945152" MonolithLength="180224"
+          SampleRate="48000.0" MonolithSplitIndex="1"/>
+</samplemap>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="release7" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="21" LoKey="20" HiKey="22" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3A0.wav"
+          Duplicate="0" SampleEnd="101778" MonolithOffset="0" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3C1.wav"
+          Duplicate="0" SampleEnd="100682" MonolithOffset="102400" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3D#1.wav"
+          Duplicate="0" SampleEnd="101219" MonolithOffset="204800" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3F#1.wav"
+          Duplicate="0" SampleEnd="102545" MonolithOffset="307200" MonolithLength="106496"
+          SampleRate="48000.0"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3A1.wav"
+          Duplicate="0" SampleEnd="102970" MonolithOffset="413696" MonolithLength="106496"
+          SampleRate="48000.0"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3C2.wav"
+          Duplicate="0" SampleEnd="102970" MonolithOffset="520192" MonolithLength="106496"
+          SampleRate="48000.0"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3D#2.wav"
+          Duplicate="0" SampleEnd="101372" MonolithOffset="626688" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3F#2.wav"
+          Duplicate="0" SampleEnd="100980" MonolithOffset="729088" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3A2.wav"
+          Duplicate="0" SampleEnd="103169" MonolithOffset="831488" MonolithLength="106496"
+          SampleRate="48000.0"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3C3.wav"
+          Duplicate="0" SampleEnd="100580" MonolithOffset="937984" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3D#3.wav"
+          Duplicate="0" SampleEnd="102415" MonolithOffset="1040384" MonolithLength="106496"
+          SampleRate="48000.0"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3F#3.wav"
+          Duplicate="0" SampleEnd="101097" MonolithOffset="1146880" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3A3.wav"
+          Duplicate="0" SampleEnd="103333" MonolithOffset="1249280" MonolithLength="106496"
+          SampleRate="48000.0"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3C4.wav"
+          Duplicate="0" SampleEnd="101323" MonolithOffset="1355776" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3D#4.wav"
+          Duplicate="0" SampleEnd="103212" MonolithOffset="1458176" MonolithLength="106496"
+          SampleRate="48000.0"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3F#4.wav"
+          Duplicate="0" SampleEnd="103059" MonolithOffset="1564672" MonolithLength="106496"
+          SampleRate="48000.0"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3A4.wav"
+          Duplicate="0" SampleEnd="101098" MonolithOffset="1671168" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3C5.wav"
+          Duplicate="0" SampleEnd="102120" MonolithOffset="1773568" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3D#5.wav"
+          Duplicate="0" SampleEnd="100344" MonolithOffset="1875968" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3F#5.wav"
+          Duplicate="0" SampleEnd="100928" MonolithOffset="1978368" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3A5.wav"
+          Duplicate="0" SampleEnd="101770" MonolithOffset="2080768" MonolithLength="102400"
+          SampleRate="48000.0"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3C6.wav"
+          Duplicate="0" SampleEnd="102784" MonolithOffset="2183168" MonolithLength="106496"
+          SampleRate="48000.0"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}harmV3D#6.wav"
+          Duplicate="0" SampleEnd="100813" MonolithOffset="2289664" MonolithLength="102400"
+          SampleRate="48000.0"/>
+</samplemap>

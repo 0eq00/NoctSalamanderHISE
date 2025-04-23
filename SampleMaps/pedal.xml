@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="pedal" RRGroupAmount="2.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="12" LoKey="12" HiKey="12" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}pedalD1.wav"
+          Duplicate="1" SampleEnd="306139" MonolithOffset="0" MonolithLength="307200"
+          SampleRate="48000.0"/>
+  <sample Root="12" LoKey="12" HiKey="12" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}pedalD2.wav"
+          Duplicate="1" SampleEnd="313892" MonolithOffset="307200" MonolithLength="315392"
+          SampleRate="48000.0"/>
+  <sample Root="14" LoKey="14" HiKey="14" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}pedalU1.wav"
+          Duplicate="1" SampleEnd="33529" MonolithOffset="622592" MonolithLength="36864"
+          SampleRate="48000.0"/>
+  <sample Root="14" LoKey="14" HiKey="14" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}pedalU2.wav"
+          Duplicate="1" SampleEnd="26798" MonolithOffset="659456" MonolithLength="28672"
+          SampleRate="48000.0"/>
+</samplemap>
