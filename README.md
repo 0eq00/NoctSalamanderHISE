@@ -18,6 +18,7 @@ This is a plugin version of [Noct-Salamander Grand Piano](https://www.ir.isas.ja
 6. Once unload NoctSalamander.vst3 and load again.\
   ![2025-04-23 131748](https://github.com/user-attachments/assets/8ddfa36c-2f60-4234-be3d-2948efc81238)
 
-
-
-  
+## How to compile
+> [!NOTE]
+> Folder "Sample" is not exist in repository because file size is too big.\
+> So you must download Samples.zip from Latest Release and extract to local repository.
