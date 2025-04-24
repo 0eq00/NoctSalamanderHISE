@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ContentProperties DeviceType="Desktop">
-  <Component type="ScriptLabel" id="Title" x="0.0" y="0.0" width="300.0" height="30.0"
-             text="Noct-Salamander HISE" fontSize="20.0" fontName="Default"
-             alignment="left"/>
+  <Component type="ScriptLabel" id="Title" x="10.0" y="0.0" width="300.0"
+             height="30.0" text="Noct-Salamander HISE" fontSize="20.0" fontName="Default"
+             alignment="left" textColour="4289053880"/>
   <Component type="ScriptFloatingTile" id="PerformanceLabel" x="400.0" y="0.0"
              width="300.0" height="30.0" ContentType="PerformanceLabel" bgColour="0"
-             itemColour="0" itemColour2="0"/>
+             itemColour="0" itemColour2="0" textColour="4289053880"/>
   <Component type="ScriptFloatingTile" id="Keyboard" x="-70.0" y="230.0" width="900.0"
              height="70.0" ContentType="Keyboard" bgColour="4284769380" itemColour="452984831"
              itemColour2="4294967295" textColour="0" Data="{&#10;  &quot;KeyWidth&quot;: 14.0,&#10;  &quot;DisplayOctaveNumber&quot;: false,&#10;  &quot;LowKey&quot;: 9,&#10;  &quot;HiKey&quot;: 127,&#10;  &quot;CustomGraphics&quot;: false,&#10;  &quot;DefaultAppearance&quot;: true,&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#10;  &quot;ToggleMode&quot;: false,&#10;  &quot;MidiChannel&quot;: 1,&#10;  &quot;UseVectorGraphics&quot;: true,&#10;  &quot;UseFlatStyle&quot;: false,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"/>
-  <Component type="ScriptSlider" id="CC67" x="0.0" y="30.0" width="120.0"
+  <Component type="ScriptSlider" id="CC67" x="10.0" y="30.0" width="120.0"
              height="50.0" stepSize="1.0" max="127.0"/>
-  <Component type="ScriptSlider" id="CC66" x="130.0" y="30.0" width="120.0"
+  <Component type="ScriptSlider" id="CC66" x="140.0" y="30.0" width="120.0"
              height="50.0" max="127.0" stepSize="1.0"/>
-  <Component type="ScriptSlider" id="CC64" x="260.0" y="30.0" width="120.0"
+  <Component type="ScriptSlider" id="CC64" x="270.0" y="30.0" width="120.0"
              height="50.0" max="127.0" stepSize="1.0"/>
-  <Component type="ScriptSlider" id="ReleaseTime" x="0.0" y="90.0" width="120.0"
+  <Component type="ScriptSlider" id="ReleaseTime" x="10.0" y="90.0" width="120.0"
              height="50.0" max="20000.0" mode="Time" stepSize="1.0" suffix=" ms"
              middlePosition="1000.0" defaultValue="500.0"/>
-  <Component type="ScriptSlider" id="ReleaseGain" x="0.0" y="150.0" width="120.0"
+  <Component type="ScriptSlider" id="ReleaseGain" x="10.0" y="150.0" width="120.0"
              height="50.0" mode="Decibel" min="-100.0" max="36.0" stepSize="0.1000000014901161"
              suffix=" dB" middlePosition="-18.0" text="Release"/>
-  <Component type="ScriptSlider" id="HammerGain" x="130.0" y="150.0" width="120.0"
+  <Component type="ScriptSlider" id="HammerGain" x="140.0" y="150.0" width="120.0"
              height="50.0" mode="Decibel" min="-100.0" max="36.0" stepSize="0.1000000014901161"
              suffix=" dB" middlePosition="-18.0" text="Hammer"/>
-  <Component type="ScriptSlider" id="PedalGain" x="260.0" y="150.0" width="120.0"
+  <Component type="ScriptSlider" id="PedalGain" x="270.0" y="150.0" width="120.0"
              height="50.0" text="Pedal" mode="Decibel" min="-100.0" max="36.0"
              stepSize="0.1000000014901161" suffix=" dB" middlePosition="-18.0"/>
   <Component type="ScriptFloatingTile" id="Analyser1" x="400.0" y="30.0" width="390.0"
              height="190.0" updateAfterInit="0" ContentType="AudioAnalyser"
-             bgColour="4281545523" itemColour="4287137928" itemColour2="4282664004"
+             bgColour="4281545523" itemColour="4289053880" itemColour2="4282664004"
              textColour="0" Data="{&#10;  &quot;ProcessorId&quot;: &quot;Analyser1&quot;,&#10;  &quot;Index&quot;: 2,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"/>
 </ContentProperties>
