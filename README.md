@@ -1,5 +1,6 @@
 # NoctSalamanderHISE
-This is a plugin version of [Noct-Salamander Grand Piano](https://www.ir.isas.jaxa.jp/~cyamauch/NoctSalamanderGrandPiano/) using [HISE](https://hise.dev/).
+This is a plugin version of [Noct-Salamander Grand Piano](https://www.ir.isas.jaxa.jp/~cyamauch/NoctSalamanderGrandPiano/) using [HISE](https://hise.dev/).\
+The following functions were added.
 - simulated soft pedal
 - simulated half damper pedal
 
