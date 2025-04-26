@@ -10,17 +10,16 @@ Some features have been added as follows.
 > [!NOTE]
 > Precompiled binary is available for Windows x64 only.
 
-1. Place NoctSalamander.vst3 in the appropriate folder as follow.
+1. Place NoctSalamander.exe in any folder or/and place NoctSalamander.vst3 in the appropriate folder as follow.
    ```
    C:\Program Files\Common Files\VST3\
    ```
-2. Place NoctSalamander.exe in any folder.
-3. Extract Samples.zip to any folder.
-4. Using DAW, load NoctSalamander.vst3.
+2. Extract Samples.zip to any folder.
+4. Kick NoctSalamander.exe or load NoctSalamander.vst3 with your DAW.
 5. Click the "Choose Sample Folder" and select a folder extracted Samples.zip.\
 　　<img src="https://github.com/user-attachments/assets/8994c856-ffbf-4050-861f-12c5ae0a2a8b" width="20%">
 
-6. Once unload NoctSalamander.vst3 and load again.\
+6. Once exit or unload, then kick or load again.\
 　　<img src="https://github.com/user-attachments/assets/8ddfa36c-2f60-4234-be3d-2948efc81238" width="50%">
 
 ## How to compile
