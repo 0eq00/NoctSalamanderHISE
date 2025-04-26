@@ -1,4 +1,4 @@
-# NoctSalamanderHISE
+# Noct-Salamander HISE
 This is a porting of [Noct-Salamander Grand Piano](https://www.ir.isas.jaxa.jp/~cyamauch/NoctSalamanderGrandPiano/) using [HISE](https://hise.dev/).\
 Some features have been added as follows.
 - simulated soft pedal
