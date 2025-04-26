@@ -6,9 +6,9 @@ Some features have been added as follows.
 
 ![aaa](https://github.com/user-attachments/assets/d041fc01-c528-456f-918f-d8bad77e5d16)
 
-## How to install
+## Install
 > [!NOTE]
-> Precompiled binary is available for Windows x64 only.
+> Precompiled binary is available for Windows x64 only from [here](https://github.com/0eq00/NoctSalamanderHISE/releases).
 
 1. Place NoctSalamander.exe in any folder or/and place NoctSalamander.vst3 in the appropriate folder as follow.
    ```
@@ -22,7 +22,7 @@ Some features have been added as follows.
 6. Once exit or unload, then kick or load again.\
 　　<img src="https://github.com/user-attachments/assets/8ddfa36c-2f60-4234-be3d-2948efc81238" width="50%">
 
-## How to compile
+## Build
 > [!NOTE]
 > Folder "Sample" is not exist in repository because file size is too big.\
 > So you may download Samples.zip from Latest Release and extract to local repository.
