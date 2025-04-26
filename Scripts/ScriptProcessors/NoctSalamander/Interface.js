@@ -1,4 +1,24 @@
-Content.makeFrontInterface(800, 300);
+Content.makeFrontInterface(800, 340);
+
+const var MainPanelButton = Content.getComponent("MainPanelButton");
+const var FXPanelButton = Content.getComponent("FXPanelButton");
+const var SettingsPanelButton = Content.getComponent("SettingsPanelButton");
+
+const var MainPanel = Content.getComponent("MainPanel");
+const var FXPanel = Content.getComponent("FXPanel");
+const var SettingsPanel = Content.getComponent("SettingsPanel");
+
+const var panels = [MainPanel, FXPanel, SettingsPanel];
+
+inline function handlePanels(panelToShow)
+{
+    for(p in panels)
+    {
+		p.set("visible", panelToShow == p);    
+    }
+}
+
+handlePanels(MainPanel);
 
 for(i = 0; i < 127; i++)
 {
@@ -237,6 +257,30 @@ function onNoteOn()
 		case PedalGain:
 		{
 			ChangePedalGain(value);
+			break;
+		}
+		case MainPanelButton:
+		{
+			if ( value > 0 )
+			{
+				handlePanels(MainPanel);
+			}
+			break;
+		}
+		case FXPanelButton:
+		{
+			if ( value > 0 )
+			{
+				handlePanels(FXPanel);
+			}
+			break;
+		}
+		case SettingsPanelButton:
+		{
+			if ( value > 0 )
+			{
+				handlePanels(SettingsPanel);
+			}
 			break;
 		}
 	}

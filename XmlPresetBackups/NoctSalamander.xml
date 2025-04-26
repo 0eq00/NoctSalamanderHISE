@@ -9,13 +9,22 @@
         <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
           <ChildProcessors/>
           <Content>
+            <Control type="ScriptButton" id="MainPanelButton" value="1.0"/>
+            <Control type="ScriptButton" id="FXPanelButton" value="0"/>
+            <Control type="ScriptButton" id="SettingsPanelButton" value="0"/>
             <Control type="ScriptSlider" id="CC67" value="0.0"/>
             <Control type="ScriptSlider" id="CC66" value="0.0"/>
             <Control type="ScriptSlider" id="CC64" value="0.0"/>
+            <Control type="ScriptSlider" id="Gain" value="0.0"/>
             <Control type="ScriptSlider" id="ReleaseTime" value="500.0"/>
             <Control type="ScriptSlider" id="ReleaseGain" value="1.490116119384766e-6"/>
             <Control type="ScriptSlider" id="HammerGain" value="1.490116119384766e-6"/>
             <Control type="ScriptSlider" id="PedalGain" value="1.490116119384766e-6"/>
+            <Control type="ScriptButton" id="ReverbButton" value="1.0"/>
+            <Control type="ScriptSlider" id="Wet Level" value="0.2000000029802322"/>
+            <Control type="ScriptSlider" id="Damping" value="0.6000000238418579"/>
+            <Control type="ScriptSlider" id="Stereo Width" value="0.800000011920929"/>
+            <Control type="ScriptSlider" id="Room Size" value="0.800000011920929"/>
           </Content>
           <UIData Source="NoctSalamanderUIData"/>
         </Processor>
@@ -32,6 +41,30 @@
         <Processor Type="Analyser" ID="Analyser1" Bypassed="0" BufferSize="8192.0"
                    PreviewType="4.0">
           <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="SimpleReverb" ID="Simple Reverb1" Bypassed="0" RoomSize="0.800000011920929"
+                   Damping="0.6000000238418579" WetLevel="0.2000000029802322" DryLevel="0.800000011920929"
+                   Width="0.800000011920929" FreezeMode="0.1000000014901161">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="SimpleGain" ID="Simple Gain0" Bypassed="0" Gain="0.0" Delay="0.0"
+                   Width="100.0" Balance="0.0" InvertPolarity="0.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
           <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
         </Processor>
       </ChildProcessors>
@@ -421,7 +454,8 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
             <Processor Type="PolyphonicFilter" ID="Filter4" Bypassed="0" Gain="0.0"
-                       Frequency="1500.0" Q="1.0" Mode="9.0" Quality="0.0" BipolarIntensity="0.0">
+                       Frequency="1500.0" Q="1.0" Mode="9.0" Quality="1.246712192e9"
+                       BipolarIntensity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
                            Intensity="1.0">
@@ -497,7 +531,7 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
             <Processor Type="PolyphonicFilter" ID="Filter5" Bypassed="0" Gain="0.0"
-                       Frequency="1600.0" Q="1.0" Mode="9.0" Quality="0.0" BipolarIntensity="0.0">
+                       Frequency="1600.0" Q="1.0" Mode="9.0" Quality="2.3331152e7" BipolarIntensity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
                            Intensity="1.0">
