@@ -2,13 +2,16 @@ Content.makeFrontInterface(800, 340);
 
 const var MainPanelButton = Content.getComponent("MainPanelButton");
 const var FXPanelButton = Content.getComponent("FXPanelButton");
+const var PresetsPanelButton = Content.getComponent("PresetsPanelButton");
 const var SettingsPanelButton = Content.getComponent("SettingsPanelButton");
+const var LoadDefaultButton = Content.getComponent("LoadDefaultButton");
 
 const var MainPanel = Content.getComponent("MainPanel");
 const var FXPanel = Content.getComponent("FXPanel");
+const var PresetsPanel = Content.getComponent("PresetsPanel");
 const var SettingsPanel = Content.getComponent("SettingsPanel");
 
-const var panels = [MainPanel, FXPanel, SettingsPanel];
+const var panels = [MainPanel, FXPanel, PresetsPanel, SettingsPanel];
 
 inline function handlePanels(panelToShow)
 {
@@ -18,12 +21,16 @@ inline function handlePanels(panelToShow)
     }
 }
 
+MainPanelButton.setValue(1);
 handlePanels(MainPanel);
+LoadDefaultButton.setValue(1);
 
 for(i = 0; i < 127; i++)
 {
-    if(i >= 21 && i <= 108) Engine.setKeyColour(i, 0x22FFFFFF);    
-    else				   Engine.setKeyColour(i, 0x77000000);
+    if(i >= 21 && i <= 108)
+    	Engine.setKeyColour(i, 0x22FFFFFF);    
+    else
+    	Engine.setKeyColour(i, 0x77000000);
 };
 
 const var CC67 = Content.getComponent("CC67");
@@ -275,11 +282,28 @@ function onNoteOn()
 			}
 			break;
 		}
+		case PresetsPanelButton:
+		{
+			if ( value > 0 )
+			{
+				handlePanels(PresetsPanel);
+			}
+			break;
+		}
 		case SettingsPanelButton:
 		{
 			if ( value > 0 )
 			{
 				handlePanels(SettingsPanel);
+			}
+			break;
+		}
+		case LoadDefaultButton:
+		{
+			if ( value < 1 )
+			{
+				LoadDefaultButton.setValue(1);
+				Engine.loadUserPreset("Default/Default/Default.preset");
 			}
 			break;
 		}

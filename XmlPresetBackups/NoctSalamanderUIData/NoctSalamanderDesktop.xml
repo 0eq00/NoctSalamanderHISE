@@ -7,23 +7,31 @@
   <Component type="ScriptFloatingTile" id="PerformanceLabel" x="400.0" y="0.0"
              width="300.0" height="30.0" ContentType="PerformanceLabel" bgColour="0"
              itemColour="0" itemColour2="0" textColour="4289053880"/>
-  <Component type="ScriptButton" id="MainPanelButton" x="0.0" y="30.0" width="130.0"
-             height="30.0" text="Main" radioGroup="1.0"/>
-  <Component type="ScriptButton" id="FXPanelButton" x="130.0" y="30.0" width="130.0"
-             height="30.0" text="FX" radioGroup="1.0"/>
-  <Component type="ScriptButton" id="SettingsPanelButton" x="260.0" y="30.0"
-             width="130.0" height="30.0" radioGroup="1.0" text="Settings"/>
+  <Component type="ScriptButton" id="MainPanelButton" x="0.0" y="30.0" width="110.0"
+             height="30.0" text="Main" radioGroup="1.0" saveInPreset="0" defaultValue="1.0"/>
+  <Component type="ScriptButton" id="FXPanelButton" x="110.0" y="30.0" width="110.0"
+             height="30.0" text="FX" radioGroup="1.0" saveInPreset="0"/>
+  <Component type="ScriptButton" id="PresetsPanelButton" x="220.0" y="30.0"
+             width="110.0" height="30.0" text="Presets" radioGroup="1.0" saveInPreset="0"/>
+  <Component type="ScriptButton" id="SettingsPanelButton" x="330.0" y="30.0"
+             width="110.0" height="30.0" radioGroup="1.0" text="Settings"
+             saveInPreset="0"/>
+  <Component type="ScriptButton" id="LoadDefaultButton" x="690.0" y="30.0"
+             width="110.0" height="30.0" saveInPreset="0" text="Load Default"/>
   <Component type="ScriptFloatingTile" id="Keyboard" x="-70.0" y="270.0" width="900.0"
              height="70.0" ContentType="Keyboard" bgColour="4284769380" itemColour="452984831"
              itemColour2="4294967295" textColour="0" Data="{&#10;  &quot;KeyWidth&quot;: 14.0,&#10;  &quot;DisplayOctaveNumber&quot;: false,&#10;  &quot;LowKey&quot;: 9,&#10;  &quot;HiKey&quot;: 127,&#10;  &quot;CustomGraphics&quot;: false,&#10;  &quot;DefaultAppearance&quot;: true,&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#10;  &quot;ToggleMode&quot;: false,&#10;  &quot;MidiChannel&quot;: 1,&#10;  &quot;UseVectorGraphics&quot;: true,&#10;  &quot;UseFlatStyle&quot;: false,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"/>
   <Component type="ScriptPanel" id="MainPanel" x="0.0" y="60.0" width="800.0"
              height="210.0">
     <Component type="ScriptSlider" id="CC67" x="10.0" y="140.0" width="120.0"
-               height="50.0" stepSize="1.0" max="127.0" parentComponent="MainPanel"/>
+               height="50.0" stepSize="1.0" max="127.0" parentComponent="MainPanel"
+               saveInPreset="0"/>
     <Component type="ScriptSlider" id="CC66" x="140.0" y="140.0" width="120.0"
-               height="50.0" max="127.0" stepSize="1.0" parentComponent="MainPanel"/>
+               height="50.0" max="127.0" stepSize="1.0" parentComponent="MainPanel"
+               saveInPreset="0"/>
     <Component type="ScriptSlider" id="CC64" x="270.0" y="140.0" width="120.0"
-               height="50.0" max="127.0" stepSize="1.0" parentComponent="MainPanel"/>
+               height="50.0" max="127.0" stepSize="1.0" parentComponent="MainPanel"
+               saveInPreset="0"/>
     <Component type="ScriptSlider" id="Gain" x="10.0" y="20.0" width="120.0"
                height="50.0" parentComponent="MainPanel" processorId="Simple Gain0"
                parameterId="Gain" middlePosition="-18.0" mode="Decibel" min="-100.0"
@@ -53,10 +61,10 @@
   </Component>
   <Component type="ScriptPanel" id="FXPanel" x="0.0" y="60.0" width="800.0"
              height="210.0" visible="0">
-    <Component type="ScriptPanel" id="ReverbPanel" x="10.0" y="10.0" width="530"
-               height="80" parentComponent="FXPanel">
-      <Component type="ScriptButton" id="ReverbButton" x="0.0" y="0.0" width="80"
-                 height="30" parentComponent="ReverbPanel" text="Reverb" processorId="Simple Reverb1"
+    <Component type="ScriptPanel" id="ReverbPanel" x="10.0" y="10.0" width="530.0"
+               height="80.0" parentComponent="FXPanel">
+      <Component type="ScriptButton" id="ReverbButton" x="0.0" y="0.0" width="80.0"
+                 height="30.0" parentComponent="ReverbPanel" text="Reverb" processorId="Simple Reverb1"
                  parameterId="Enabled" bgColour="16777215"/>
       <Component type="ScriptSlider" id="Wet Level" x="0.0" y="20.0" width="120.0"
                  height="50.0" parentComponent="ReverbPanel" processorId="Simple Reverb1"
@@ -75,6 +83,13 @@
                  parameterId="RoomSize" defaultValue="0.800000011920929" mode="NormalizedPercentage"
                  suffix="%" middlePosition="0.5"/>
     </Component>
+  </Component>
+  <Component type="ScriptPanel" id="PresetsPanel" x="0.0" y="60.0" width="800.0"
+             height="210.0" visible="0">
+    <Component type="ScriptFloatingTile" id="PresetBrowser" x="0.0" y="0.0"
+               width="800.0" height="210.0" parentComponent="PresetsPanel" ContentType="PresetBrowser"
+               bgColour="4143972352" itemColour="4287692721" itemColour2="0"
+               Data="{&#10;  &quot;ShowSaveButton&quot;: true,&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#10;  &quot;ShowFolderButton&quot;: true,&#10;  &quot;ShowNotes&quot;: true,&#10;  &quot;ShowEditButtons&quot;: true,&#10;  &quot;EditButtonOffset&quot;: 10,&#10;  &quot;ShowAddButton&quot;: true,&#10;  &quot;ShowRenameButton&quot;: true,&#10;  &quot;ShowDeleteButton&quot;: true,&#10;  &quot;ShowSearchBar&quot;: true,&#10;  &quot;ShowFavoriteIcon&quot;: true,&#10;  &quot;FullPathFavorites&quot;: false,&#10;  &quot;ButtonsInsideBorder&quot;: false,&#10;  &quot;NumColumns&quot;: 3,&#10;  &quot;ColumnWidthRatio&quot;: [&#10;    0.3333333333333333,&#10;    0.3333333333333333,&#10;    0.3333333333333333&#10;  ],&#10;  &quot;ListAreaOffset&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;ColumnRowPadding&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;SearchBarBounds&quot;: [],&#10;  &quot;MoreButtonBounds&quot;: [],&#10;  &quot;SaveButtonBounds&quot;: [],&#10;  &quot;FavoriteButtonBounds&quot;: []&#10;}"/>
   </Component>
   <Component type="ScriptPanel" id="SettingsPanel" x="0.0" y="61.0" width="800.0"
              height="280.0" bgColour="4294967295" visible="0">
