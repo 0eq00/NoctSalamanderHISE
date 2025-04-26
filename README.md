@@ -25,5 +25,5 @@ Some features have been added as follows.
 ## Build
 > [!NOTE]
 > Folder "Sample" is not exist in repository because file size is too big.\
-> So you may download Samples.zip from Latest Release and extract to local repository.
+> So you may download Samples.zip from [Latest Release](https://github.com/0eq00/NoctSalamanderHISE/releases) and extract to local repository.
 
