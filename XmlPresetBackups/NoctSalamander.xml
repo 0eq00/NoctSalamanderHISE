@@ -19,6 +19,7 @@
             <Control type="ScriptSlider" id="Damping" value="0.6000000238418579"/>
             <Control type="ScriptSlider" id="Stereo Width" value="0.800000011920929"/>
             <Control type="ScriptSlider" id="Room Size" value="0.800000011920929"/>
+            <Control type="ScriptTable" id="VelocityTable" value="0.0" data=""/>
           </Content>
           <UIData Source="NoctSalamanderUIData"/>
         </Processor>
@@ -62,6 +63,30 @@
           <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
         </Processor>
       </ChildProcessors>
+    </Processor>
+    <Processor Type="GlobalModulatorContainer" ID="Global Modulator Container1"
+               Bypassed="0" Gain="0.25" Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0"
+               IconColour="0">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="Global Modulators" Bypassed="0" Intensity="1.0">
+          <ChildProcessors>
+            <Processor Type="Velocity" ID="VelocityMapper" Bypassed="1" Intensity="1.0"
+                       Bipolar="0" UseTable="1.0" Inverted="1.0" DecibelMode="0.0" VelocityTableData="">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
     </Processor>
     <Processor Type="StreamingSampler" ID="Sustain1" Bypassed="0" Gain="1.0"
                Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
@@ -371,7 +396,8 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
             <Processor Type="PolyphonicFilter" ID="Filter3" Bypassed="0" Gain="0.0"
-                       Frequency="1400.0" Q="1.0" Mode="9.0" Quality="0.0" BipolarIntensity="0.0">
+                       Frequency="1400.0" Q="1.0" Mode="9.0" Quality="-3.10383104e8"
+                       BipolarIntensity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
                            Intensity="1.0">
@@ -523,8 +549,7 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
             <Processor Type="PolyphonicFilter" ID="Filter5" Bypassed="0" Gain="0.0"
-                       Frequency="1600.0" Q="1.0" Mode="9.0" Quality="1.246712192e9"
-                       BipolarIntensity="0.0">
+                       Frequency="1600.0" Q="1.0" Mode="9.0" Quality="0.0" BipolarIntensity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
                            Intensity="1.0">
@@ -676,8 +701,7 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
             <Processor Type="PolyphonicFilter" ID="Filter7" Bypassed="0" Gain="0.0"
-                       Frequency="1700.0" Q="1.0" Mode="9.0" Quality="1.246712192e9"
-                       BipolarIntensity="0.0">
+                       Frequency="1700.0" Q="1.0" Mode="9.0" Quality="0.0" BipolarIntensity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
                            Intensity="1.0">
@@ -753,8 +777,7 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
             <Processor Type="PolyphonicFilter" ID="Filter8" Bypassed="0" Gain="0.0"
-                       Frequency="1800.0" Q="1.0" Mode="9.0" Quality="1.246712192e9"
-                       BipolarIntensity="0.0">
+                       Frequency="1800.0" Q="1.0" Mode="9.0" Quality="0.0" BipolarIntensity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
                            Intensity="1.0">

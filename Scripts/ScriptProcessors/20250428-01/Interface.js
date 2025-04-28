@@ -2,46 +2,29 @@ Content.makeFrontInterface(800, 340);
 
 const var MainPanelButton = Content.getComponent("MainPanelButton");
 const var FXPanelButton = Content.getComponent("FXPanelButton");
-const var DetailPanelButton = Content.getComponent("DetailPanelButton");
+const var VelocityPanelButton = Content.getComponent("VelocityPanelButton");
 const var PresetsPanelButton = Content.getComponent("PresetsPanelButton");
 const var SettingsPanelButton = Content.getComponent("SettingsPanelButton");
 const var LoadDefaultButton = Content.getComponent("LoadDefaultButton");
 
 const var MainPanel = Content.getComponent("MainPanel");
 const var FXPanel = Content.getComponent("FXPanel");
-const var DetailPanel = Content.getComponent("DetailPanel");
+const var VelocityPanel = Content.getComponent("VelocityPanel");
 const var PresetsPanel = Content.getComponent("PresetsPanel");
 const var SettingsPanel = Content.getComponent("SettingsPanel");
 
-const var panels1 = [MainPanel, FXPanel, DetailPanel, PresetsPanel, SettingsPanel];
+const var panels = [MainPanel, FXPanel, VelocityPanel, PresetsPanel, SettingsPanel];
 
-inline function handlePanels1(panelToShow)
+inline function handlePanels(panelToShow)
 {
-    for(p in panels1)
+    for(p in panels)
     {
 		p.set("visible", panelToShow == p);    
     }
 }
 
 MainPanelButton.setValue(1);
-handlePanels1(MainPanel);
-
-const var VelocityPanelButton = Content.getComponent("VelocityPanelButton");
-
-const var VelocityPanel = Content.getComponent("VelocityPanel");
-
-const var panels2 = [VelocityPanel];
-
-inline function handlePanels2(panelToShow)
-{
-    for(p in panels2)
-    {
-		p.set("visible", panelToShow == p);    
-    }
-}
-
-VelocityPanelButton.setValue(1);
-handlePanels2(VelocityPanel);
+handlePanels(MainPanel);
 
 for(i = 0; i < 127; i++)
 {
@@ -269,7 +252,7 @@ function onNoteOn()
 		{
 			if ( value > 0 )
 			{
-				handlePanels1(MainPanel);
+				handlePanels(MainPanel);
 			}
 			break;
 		}
@@ -277,15 +260,15 @@ function onNoteOn()
 		{
 			if ( value > 0 )
 			{
-				handlePanels1(FXPanel);
+				handlePanels(FXPanel);
 			}
 			break;
 		}
-		case DetailPanelButton:
+		case VelocityPanelButton:
 		{
 			if ( value > 0 )
 			{
-				handlePanels1(DetailPanel);
+				handlePanels(VelocityPanel);
 			}
 			break;
 		}
@@ -293,7 +276,7 @@ function onNoteOn()
 		{
 			if ( value > 0 )
 			{
-				handlePanels1(PresetsPanel);
+				handlePanels(PresetsPanel);
 			}
 			break;
 		}
@@ -301,7 +284,7 @@ function onNoteOn()
 		{
 			if ( value > 0 )
 			{
-				handlePanels1(SettingsPanel);
+				handlePanels(SettingsPanel);
 			}
 			break;
 		}
