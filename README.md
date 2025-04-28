@@ -4,7 +4,7 @@ Some features have been added as follows.
 - simulated soft pedal
 - simulated half damper pedal
 
-![aaa](https://github.com/user-attachments/assets/d041fc01-c528-456f-918f-d8bad77e5d16)
+![A](https://github.com/user-attachments/assets/09026cd3-1587-4410-a2ca-c26166b3c159)
 
 ## Install
 > [!NOTE]
