@@ -27,10 +27,12 @@ MainPanelButton.setValue(1);
 handlePanels1(MainPanel);
 
 const var VelocityPanelButton = Content.getComponent("VelocityPanelButton");
+const var DamperPanelButton = Content.getComponent("DamperPanelButton");
 
 const var VelocityPanel = Content.getComponent("VelocityPanel");
+const var DamperPanel = Content.getComponent("DamperPanel");
 
-const var panels2 = [VelocityPanel];
+const var panels2 = [VelocityPanel, DamperPanel];
 
 inline function handlePanels2(panelToShow)
 {
@@ -75,26 +77,42 @@ const var Release5 = Synth.getChildSynth("Release5");
 const var Release6 = Synth.getChildSynth("Release6");
 const var Release7 = Synth.getChildSynth("Release7");
 
+const var DEFAULT_DAMPER = "48...............vONOzQ9.........vOPhEP+....9SMn+dO...f+....9C...vO";
 var releaseTime=500;
+var releaseTimeR100=8000;
+var releaseTimeMAX=20000;
 var valueCC64=0;
 
-inline function ChangeSustainPedalState()
+Synth.getModulator("DamperMapper").setBypassed(true);
+const var DamperMapper = Synth.getTableProcessor("DamperMapper");
+const var DamperTable = DamperMapper.getTable(0);
+const var InputDamper = Content.getComponent("InputDamper");
+const var OutputDamper = Content.getComponent("OutputDamper");
+const var ResetDamperTable = Content.getComponent("ResetDamperTable");
+const var ExportDamperTable = Content.getComponent("ExportDamperTable");
+const var ImportDamperTable = Content.getComponent("ImportDamperTable");
+const var DamperLabel  = Content.getComponent("DamperLabel");
+const var ReleaseTimeR100 = Content.getComponent("ReleaseTimeR100");
+const var ResultDamper = Content.getComponent("ResultDamper");
+
+inline function ChangeDamperState()
 {
-	local value=0;
+	local value = releaseTime;
+	local rate = DamperTable.getTableValueNormalised(valueCC64/127);
 
-	value = releaseTime;
-
-	if (valueCC64 < 40)
+	if ( rate < 1 )
 	{
-		Release1.setAttribute(Release1.Gain, 0.63);
-		Release2.setAttribute(Release2.Gain, 0.63);
-		Release3.setAttribute(Release3.Gain, 0.63);
-		Release4.setAttribute(Release4.Gain, 0.63);
-		Release5.setAttribute(Release5.Gain, 1);
-		Release6.setAttribute(Release6.Gain, 1);
-		Release7.setAttribute(Release7.Gain, 1);
+		value = releaseTime + (releaseTimeR100 - releaseTime)*rate;
 	}
 	else
+	{
+		value = releaseTimeMAX;				
+	}
+
+	OutputDamper.setValue(rate);
+	ResultDamper.setValue( Engine.doubleToString(value, 0) + " ms");
+
+	if ( rate > 0 )
 	{
 		Release1.setAttribute(Release1.Gain, 0);
 		Release2.setAttribute(Release2.Gain, 0);
@@ -103,27 +121,16 @@ inline function ChangeSustainPedalState()
 		Release5.setAttribute(Release5.Gain, 0);
 		Release6.setAttribute(Release6.Gain, 0);
 		Release7.setAttribute(Release7.Gain, 0);
-
-		if (valueCC64 < 60)
-		{
-			if ( value < 600 ) value = 600;
-		}
-		else if (valueCC64 < 80)
-		{
-			if ( value < 900 ) value = 900;
-		}
-		else if (valueCC64 < 100)
-		{
-			if ( value < 1200 ) value = 1200;
-		}
-		else if (valueCC64 < 120)
-		{
-			if ( value < 1500 ) value = 1500;
-		}
-		else
-		{
-			value = 20000;
-		}
+	}
+	else
+	{
+		Release1.setAttribute(Release1.Gain, 0.63);
+		Release2.setAttribute(Release2.Gain, 0.63);
+		Release3.setAttribute(Release3.Gain, 0.63);
+		Release4.setAttribute(Release4.Gain, 0.63);
+		Release5.setAttribute(Release5.Gain, 1);
+		Release6.setAttribute(Release6.Gain, 1);
+		Release7.setAttribute(Release7.Gain, 1);		
 	}
 
 	DefaultEnvelope1.setAttribute(DefaultEnvelope1.Release, value);
@@ -176,7 +183,7 @@ const var OutputVelocity = Content.getComponent("OutputVelocity");
 const var ResetVelocityTable = Content.getComponent("ResetVelocityTable");
 const var ExportVelocityTable = Content.getComponent("ExportVelocityTable");
 const var ImportVelocityTable = Content.getComponent("ImportVelocityTable");
-const var Base64Label  = Content.getComponent("Base64Label");
+const var VelocityLabel  = Content.getComponent("VelocityLabel");
 
 function onNoteOn()
 {
@@ -214,7 +221,7 @@ function onNoteOn()
 		{
 			valueCC64=Message.getControllerValue();
 			CC64.setValue(valueCC64);
-			ChangeSustainPedalState();
+			ChangeDamperState();
 			break;
 		}
 	}
@@ -228,121 +235,95 @@ function onNoteOn()
 	switch(number)
 	{
 		case CC67:
-		{
 			Synth.sendController(67, value);
 			break;
-		}
 		case CC66:
-		{
 			Synth.sendController(66, value);
 			break;
-		}
 		case CC64:
-		{
 			valueCC64 = value;
-			ChangeSustainPedalState();
+			ChangeDamperState();
 			Synth.sendController(64, value);
 			break;
-		}
 		case ReleaseTime:
-		{
 			releaseTime = value;
-			ChangeSustainPedalState();
+			ChangeDamperState();
 			break;
-		}
+		case ReleaseTimeR100:
+			releaseTimeR100 = value;
+			ChangeDamperState();
+			break;
 		case ReleaseGain:
-		{
 			ChangeReleaseGain(value);
 			break;
-		}
 		case HammerGain:
-		{
 			ChangeHammerGain(value);
 			break;
-		}
 		case PedalGain:
-		{
 			ChangePedalGain(value);
 			break;
-		}
 		case MainPanelButton:
-		{
 			if ( value > 0 )
-			{
 				handlePanels1(MainPanel);
-			}
 			break;
-		}
 		case FXPanelButton:
-		{
 			if ( value > 0 )
-			{
 				handlePanels1(FXPanel);
-			}
 			break;
-		}
 		case DetailPanelButton:
-		{
 			if ( value > 0 )
-			{
 				handlePanels1(DetailPanel);
-			}
 			break;
-		}
 		case PresetsPanelButton:
-		{
 			if ( value > 0 )
-			{
 				handlePanels1(PresetsPanel);
-			}
 			break;
-		}
 		case SettingsPanelButton:
-		{
 			if ( value > 0 )
-			{
 				handlePanels1(SettingsPanel);
-			}
 			break;
-		}
+		case VelocityPanelButton:
+			if ( value > 0 )
+				handlePanels2(VelocityPanel);
+			break;
+		case DamperPanelButton:
+			if ( value > 0 )
+				handlePanels2(DamperPanel);
+			break;
 		case LoadDefaultButton:
-		{
 			if ( value < 1 )
-			{
 				Engine.loadUserPreset("Default/Default/Default.preset");
-			}
 			break;
-		}
 		case ResetVelocityTable:
-		{
 			if ( value < 1 )
-			{
 				VelocityMapper.reset(0);
-			}
 			break;
-		}
 		case ExportVelocityTable:
-		{
 			if ( value < 1 )
-			{
-				Base64Label.setValue(VelocityMapper.exportAsBase64(0));
-//				Console.print("Base64[" + VelocityMapper.exportAsBase64(0) + "]");
-				break;
-			}
-		}
+				VelocityLabel.setValue(VelocityMapper.exportAsBase64(0));
+			break;
 		case ImportVelocityTable:
-		{
 			if ( value < 1 )
-			{
-				VelocityMapper.restoreFromBase64(0,Base64Label.getValue());
-				break;
-			}
-		}
+				VelocityMapper.restoreFromBase64(0,VelocityLabel.getValue());
+			break;
 		case InputVelocity:
-		{
 			OutputVelocity.setValue(VelocityTable.getTableValueNormalised(value/127)*127);
 			break;
-		}
+		case ResetDamperTable:
+			if ( value < 1 )
+				DamperMapper.restoreFromBase64(0,DEFAULT_DAMPER);
+			break;
+		case ExportDamperTable:
+			if ( value < 1 )
+				DamperLabel.setValue(DamperMapper.exportAsBase64(0));
+			break;
+		case ImportDamperTable:
+			if ( value < 1 )
+				DamperMapper.restoreFromBase64(0,DamperLabel.getValue());
+			break;
+		case InputDamper:
+			OutputDamper.setValue(DamperTable.getTableValueNormalised(value/127));
+			break;
 	}
 }
  
