@@ -28,11 +28,13 @@ handlePanels1(MainPanel);
 
 const var VelocityPanelButton = Content.getComponent("VelocityPanelButton");
 const var DamperPanelButton = Content.getComponent("DamperPanelButton");
+const var SoftPanelButton = Content.getComponent("SoftPanelButton");
 
 const var VelocityPanel = Content.getComponent("VelocityPanel");
 const var DamperPanel = Content.getComponent("DamperPanel");
+const var SoftPanel = Content.getComponent("SoftPanel");
 
-const var panels2 = [VelocityPanel, DamperPanel];
+const var panels2 = [VelocityPanel, DamperPanel, SoftPanel];
 
 inline function handlePanels2(panelToShow)
 {
@@ -185,6 +187,14 @@ const var ExportVelocityTable = Content.getComponent("ExportVelocityTable");
 const var ImportVelocityTable = Content.getComponent("ImportVelocityTable");
 const var VelocityLabel  = Content.getComponent("VelocityLabel");
 
+const var Soft6Gain = Content.getComponent("Soft6Gain");
+const var Soft6Cutoff = Content.getComponent("Soft6Cutoff");
+const var SoftGain6 = Synth.getEffect("Soft Gain6");
+const var SoftGain7 = Synth.getEffect("Soft Gain7");
+const var Filter6 = Synth.getEffect("Filter6");
+const var Filter7 = Synth.getEffect("Filter7");
+
+
 function onNoteOn()
 {
 //	local noteNumber = Message.getNoteNumber();
@@ -290,6 +300,10 @@ function onNoteOn()
 			if ( value > 0 )
 				handlePanels2(DamperPanel);
 			break;
+		case SoftPanelButton:
+			if ( value > 0 )
+				handlePanels2(SoftPanel);
+			break;
 		case LoadDefaultButton:
 			if ( value < 1 )
 				Engine.loadUserPreset("Default/Default/Default.preset");
@@ -323,6 +337,14 @@ function onNoteOn()
 			break;
 		case InputDamper:
 			OutputDamper.setValue(DamperTable.getTableValueNormalised(value/127));
+			break;
+		case Soft6Gain:
+			SoftGain6.setAttribute(SoftGain6.Gain,value);
+			SoftGain7.setAttribute(SoftGain7.Gain,value);
+			break;
+		case Soft6Cutoff:
+			Filter6.setAttribute(Filter6.Frequency,value);
+			Filter7.setAttribute(Filter7.Frequency,value);
 			break;
 	}
 }
