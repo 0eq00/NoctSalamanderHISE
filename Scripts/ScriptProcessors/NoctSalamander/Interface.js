@@ -1,5 +1,6 @@
 Content.makeFrontInterface(800, 340);
 
+/* Panel Handling */
 const var MainPanelButton = Content.getComponent("MainPanelButton");
 const var FXPanelButton = Content.getComponent("FXPanelButton");
 const var DetailPanelButton = Content.getComponent("DetailPanelButton");
@@ -46,6 +47,8 @@ inline function handlePanels2(panelToShow)
 
 VelocityPanelButton.setValue(1);
 handlePanels2(VelocityPanel);
+
+/* Main */
 
 for(i = 0; i < 127; i++)
 {
@@ -177,6 +180,8 @@ inline function ChangePedalGain( value )
 	SimpleGain9.setAttribute(SimpleGain9.Gain, value);
 };
 
+/* Key Velocity */
+
 Synth.getModulator("VelocityMapper").setBypassed(true);
 const var VelocityMapper = Synth.getTableProcessor("VelocityMapper");
 const var VelocityTable = VelocityMapper.getTable(0);
@@ -185,7 +190,76 @@ const var OutputVelocity = Content.getComponent("OutputVelocity");
 const var ResetVelocityTable = Content.getComponent("ResetVelocityTable");
 const var ExportVelocityTable = Content.getComponent("ExportVelocityTable");
 const var ImportVelocityTable = Content.getComponent("ImportVelocityTable");
+const var FormatVelocity = Content.getComponent("FormatVelocity");
 const var VelocityLabel  = Content.getComponent("VelocityLabel");
+
+FormatVelocity.setValue(1);
+
+function VelocityExportText()
+{
+	var array = VelocityTable.getTablePointsAsArray();
+	var contents = "";
+	var x = 0;
+	var y = 0;
+	var z = 0;
+	for(i = 0; i < array.length; i++)
+	{
+		x = Math.round(array[i][0]*127);
+		y = Math.round(array[i][1]*127);
+		z = array[i][2];
+//		Console.print("["+x+"]["+y+"]["+z+"]");
+		contents += x + "\t" + y + "\t" + z + "\n";	
+	}
+	VelocityLabel.setValue(contents);
+}
+
+function VelocityImportText()
+{
+	var contents = VelocityLabel.getValue();
+	var lines = contents.split("\n");
+	var x = 0;
+	var y = 0;
+	var z = 0;
+	var array = [[]];
+	var point = [];
+	if ( lines != NULL )
+	{
+		array.clear();
+
+		for(i = 0; i < lines.length; i++)
+		{
+//			Console.print(lines[i]);
+			var values = lines[i].split("\t");
+			if ( values != NULL)
+			{
+//				Console.print("0["+values[0].charAt(0)+"]");
+				if (values[0] != NULL)
+				{
+					if (values[0].charAt(0) >= '0' && values[0].charAt(0) <= '9')
+					{
+//						Console.print("a["+values[0]+"]["+values[1]+"]["+values[2]+"]");
+						x = parseInt(values[0],10)/127;
+
+						if (values[1]!= NULL)
+							y = parseInt(values[1],10)/127;
+						else
+							y = 0;
+
+						if (values[2]!= NULL)
+							z = values[2];
+						else
+							z = 0.5;
+//						Console.print("b["+x+"]["+y+"]["+z+"]");
+						array.push([x,y,z]);
+					}
+				}
+			}
+		}
+		VelocityTable.setTablePointsFromArray(array);
+	}
+}
+
+/* Soft Pedal */
 
 const var Soft6Gain = Content.getComponent("Soft6Gain");
 const var Soft6Cutoff = Content.getComponent("Soft6Cutoff");
@@ -314,11 +388,21 @@ function onNoteOn()
 			break;
 		case ExportVelocityTable:
 			if ( value < 1 )
-				VelocityLabel.setValue(VelocityMapper.exportAsBase64(0));
+			{
+				if (FormatVelocity.getValue() < 2)
+					VelocityLabel.setValue(VelocityMapper.exportAsBase64(0));
+				else
+					VelocityExportText();
+			}
 			break;
 		case ImportVelocityTable:
 			if ( value < 1 )
-				VelocityMapper.restoreFromBase64(0,VelocityLabel.getValue());
+			{
+				if (FormatVelocity.getValue() < 2)
+					VelocityMapper.restoreFromBase64(0,VelocityLabel.getValue());
+				else
+					VelocityImportText();
+			}
 			break;
 		case InputVelocity:
 			OutputVelocity.setValue(VelocityTable.getTableValueNormalised(value/127)*127);

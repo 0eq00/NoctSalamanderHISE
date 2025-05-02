@@ -107,7 +107,7 @@
                radioGroup="2.0" text="Soft Pedal" bgColour="16777215" itemColour2="1118481"/>
     <Component type="ScriptPanel" id="VelocityPanel" x="0.0" y="30.0" width="800.0"
                height="180.0" parentComponent="DetailPanel" textColour="16777215"
-               itemColour="0" itemColour2="0" visible="0">
+               itemColour="0" itemColour2="0">
       <Component type="ScriptTable" id="VelocityTable" x="10.0" y="10.0" width="390.0"
                  height="140.0" parentComponent="VelocityPanel" processorId="VelocityMapper"/>
       <Component type="ScriptSlider" id="InputVelocity" x="10.0" y="150.0" width="390.0"
@@ -122,12 +122,16 @@
       <Component type="ScriptButton" id="ImportVelocityTable" x="440.0" y="50.0"
                  width="80.0" height="30.0" parentComponent="VelocityPanel" text="Import"
                  saveInPreset="0" isMomentary="1"/>
-      <Component type="ScriptButton" id="ResetVelocityTable" x="440.0" y="90.0"
+      <Component type="ScriptComboBox" id="FormatVelocity" x="440.0" y="90.0"
+                 width="80.0" height="30.0" max="2" parentComponent="VelocityPanel"
+                 saveInPreset="0" text="" items="Base64&#10;Text&#10;"/>
+      <Component type="ScriptButton" id="ResetVelocityTable" x="440.0" y="130.0"
                  width="80.0" height="30.0" parentComponent="VelocityPanel" text="Reset"
                  saveInPreset="0" isMomentary="1"/>
       <Component type="ScriptLabel" id="VelocityLabel" x="530.0" y="10.0" width="260.0"
                  height="160.0" parentComponent="VelocityPanel" text="" alignment="topLeft"
-                 bgColour="4212199697" itemColour="1442840575" itemColour2="1442840575"/>
+                 bgColour="4212199697" itemColour="1442840575" itemColour2="1442840575"
+                 multiline="1"/>
     </Component>
     <Component type="ScriptPanel" id="DamperPanel" x="0.0" y="30.0" width="800.0"
                height="180.0" parentComponent="DetailPanel" itemColour="0" itemColour2="0"
@@ -167,7 +171,7 @@
     </Component>
     <Component type="ScriptPanel" id="SoftPanel" x="0.0" y="30.0" width="800.0"
                height="180.0" parentComponent="DetailPanel" itemColour="0" itemColour2="0"
-               textColour="16777215">
+               textColour="16777215" visible="0">
       <Component type="ScriptSlider" id="CC67R1" x="0.0" y="0.0" width="120.0"
                  height="50.0" parentComponent="SoftPanel" max="127.0" saveInPreset="0"
                  processorId="" stepSize="1.0" linkedTo="CC67" text="CC67"/>
