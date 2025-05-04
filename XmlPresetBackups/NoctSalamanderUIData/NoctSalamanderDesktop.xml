@@ -165,9 +165,10 @@
                  height="50.0" parentComponent="DamperPanel" text="100%" mode="Time"
                  max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
                  defaultValue="8000.0"/>
-      <Component type="ScriptLabel" id="ResultDamper" x="680.0" y="10.0" width="110.0"
-                 height="30.0" parentComponent="DamperPanel" editable="0" text="500 ms"
-                 bgColour="4212199697" itemColour="1442840575" itemColour2="1442840575"/>
+      <Component type="ScriptSlider" id="ResultDamper" x="680.0" y="0.0" width="120.0"
+                 height="50.0" parentComponent="DamperPanel" text="Release" mode="Time"
+                 max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
+                 enabled="0" saveInPreset="0"/>
     </Component>
     <Component type="ScriptPanel" id="SoftPanel" x="0.0" y="30.0" width="800.0"
                height="180.0" parentComponent="DetailPanel" itemColour="0" itemColour2="0"

@@ -100,6 +100,8 @@ const var DamperLabel  = Content.getComponent("DamperLabel");
 const var ReleaseTimeR100 = Content.getComponent("ReleaseTimeR100");
 const var ResultDamper = Content.getComponent("ResultDamper");
 
+ResultDamper.set("enabled", false);
+
 inline function ChangeDamperState()
 {
 	local value = releaseTime;
@@ -115,7 +117,7 @@ inline function ChangeDamperState()
 	}
 
 	OutputDamper.setValue(rate);
-	ResultDamper.setValue( Engine.doubleToString(value, 0) + " ms");
+	ResultDamper.setValue(value);
 
 	if ( rate > 0 )
 	{
