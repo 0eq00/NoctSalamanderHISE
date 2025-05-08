@@ -30,12 +30,14 @@ handlePanels1(MainPanel);
 const var VelocityPanelButton = Content.getComponent("VelocityPanelButton");
 const var DamperPanelButton = Content.getComponent("DamperPanelButton");
 const var SoftPanelButton = Content.getComponent("SoftPanelButton");
+const var MetronomePanelButton = Content.getComponent("MetronomePanelButton");
 
 const var VelocityPanel = Content.getComponent("VelocityPanel");
 const var DamperPanel = Content.getComponent("DamperPanel");
 const var SoftPanel = Content.getComponent("SoftPanel");
+const var MetronomePanel = Content.getComponent("MetronomePanel");
 
-const var panels2 = [VelocityPanel, DamperPanel, SoftPanel];
+const var panels2 = [VelocityPanel, DamperPanel, SoftPanel, MetronomePanel];
 
 inline function handlePanels2(panelToShow)
 {
@@ -270,7 +272,95 @@ const var SoftGain7 = Synth.getEffect("Soft Gain7");
 const var Filter6 = Synth.getEffect("Filter6");
 const var Filter7 = Synth.getEffect("Filter7");
 
+/* Metronome */
 
+const var Metronome = Synth.getChildSynth("Metronome");
+
+const var MetronomeTempoSlider = Content.getComponent("MetronomeTempoSlider");
+const var MetronomeBeatSlider = Content.getComponent("MetronomeBeatSlider");
+const var MetronomeStartButton = Content.getComponent("MetronomeStartButton");
+const var MetronomeStopButton = Content.getComponent("MetronomeStopButton");
+const var MetronomeSyncButton = Content.getComponent("MetronomeSyncButton");
+
+MetronomeStartButton.setValue(0);
+MetronomeStopButton.setValue(1);
+MetronomeSyncButton.setValue(0);
+
+var MetronomeIsRunnig = false;
+var MetronomeBeatCount = 0;
+var MetronomeInSync = false;
+
+inline function MetronomeControlCB(component, value)
+{
+	switch (component)
+	{
+/*
+		case MetronomeTempoSlider:
+			if ( MetronomePanelButton.getValue() > 0 )
+				Synth.playNote(16,127);
+			break;
+		case MetronomeBeatSlider:
+			if ( MetronomePanelButton.getValue() > 0 )
+				Synth.playNote(17,127);
+			break;
+*/
+		case MetronomeStopButton:
+			MetronomeIsRunnig = false;
+			Synth.stopTimer();
+//			Console.print("Stop timer");
+			break;
+		case MetronomeStartButton:
+			if ( ! MetronomeIsRunnig )
+			{
+				MetronomeBeatCount = 0;
+				MetronomeIsRunnig = true;
+				reg milisec = Engine.getMilliSecondsForQuarterBeatsWithTempo(1,MetronomeTempoSlider.getValue());
+				Synth.startTimer( milisec / 1000 );
+//				Console.print("Start timer");
+			}
+			break;
+		case MetronomeSyncButton:
+			if ( value > 0 )
+				MetronomeInSync = true;
+			else
+				MetronomeInSync = false;
+			break;
+	}
+}
+
+MetronomeTempoSlider.setControlCallback(MetronomeControlCB);
+MetronomeBeatSlider.setControlCallback(MetronomeControlCB);
+MetronomeStartButton.setControlCallback(MetronomeControlCB);
+MetronomeStopButton.setControlCallback(MetronomeControlCB);
+MetronomeSyncButton.setControlCallback(MetronomeControlCB);
+
+/* Metronome Host Sync */
+const var th = Engine.createTransportHandler();
+th.setSyncMode(th.PreferExternal);
+// th.setSyncMode(th.Inactive);
+th.setEnableGrid(true, 8);
+
+inline function OnBeatChange(beatIndex, isNewBar)
+{
+//	Console.print("beatIndex["+beatIndex +"]isNewBar["+isNewBar+"]");
+	if ( MetronomeInSync )
+	{
+		Synth.playNote(16, 127);
+		if ( isNewBar )
+			Synth.playNote(17, 127);	
+	}
+};
+th.setOnBeatChange(SyncNotification, OnBeatChange);
+inline function gridCallback(index, timestamp, isFirst)
+{
+//	Console.print("grid index["+index +"]timestamp["+isFirst+"]");	
+	if ( MetronomeInSync )
+	{
+		if ( isFirst )
+			Synth.playNote(17, 127);
+	}
+}
+th.setOnGridChange(SyncNotification, gridCallback);
 function onNoteOn()
 {
 //	local noteNumber = Message.getNoteNumber();
@@ -314,7 +404,18 @@ function onNoteOn()
 }
  function onTimer()
 {
-	
+//	Console.print("On timer");
+
+/* Metronome */	
+
+	Synth.playNote(16, 127);
+	if ( MetronomeBeatCount == 0 )
+	{
+		Synth.playNote(17, 127);
+	}
+	MetronomeBeatCount++;
+	if (MetronomeBeatCount >= MetronomeBeatSlider.getValue())
+		MetronomeBeatCount = 0;
 }
  function onControl(number, value)
 {
@@ -379,6 +480,10 @@ function onNoteOn()
 		case SoftPanelButton:
 			if ( value > 0 )
 				handlePanels2(SoftPanel);
+			break;
+		case MetronomePanelButton:
+			if ( value > 0 )
+				handlePanels2(MetronomePanel);
 			break;
 		case LoadDefaultButton:
 			if ( value < 1 )

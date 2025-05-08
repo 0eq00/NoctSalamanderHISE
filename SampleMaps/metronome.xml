@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="metronome" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="16" LoKey="16" HiKey="16" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}SD50-GM2-ANALOG/033.wav" Duplicate="1"
+          SampleEnd="44000" MonolithOffset="0" MonolithLength="45056" SampleRate="44100.0"/>
+  <sample Root="17" LoKey="17" HiKey="17" LoVel="1" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}SD50-GM2-ANALOG/034.wav" Duplicate="1"
+          SampleEnd="44000" MonolithOffset="45056" MonolithLength="45056"
+          SampleRate="44100.0"/>
+</samplemap>
