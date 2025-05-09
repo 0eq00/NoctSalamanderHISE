@@ -76,7 +76,13 @@ const var DefaultEnvelope6 = Synth.getModulator("DefaultEnvelope6");
 const var DefaultEnvelope7 = Synth.getModulator("DefaultEnvelope7");
 const var DefaultEnvelope8 = Synth.getModulator("DefaultEnvelope8");
 
-const var Release = Synth.getChildSynth("Release");
+const var Release1 = Synth.getChildSynth("Release1");
+const var Release2 = Synth.getChildSynth("Release2");
+const var Release3 = Synth.getChildSynth("Release3");
+const var Release4 = Synth.getChildSynth("Release4");
+const var Release5 = Synth.getChildSynth("Release5");
+const var Release6 = Synth.getChildSynth("Release6");
+const var Release7 = Synth.getChildSynth("Release7");
 
 const var DEFAULT_DAMPER = "48...............vONOzQ9.........vOPhEP+....9SMn+dO...f+....9C...vO";
 var releaseTime=500;
@@ -117,11 +123,23 @@ inline function ChangeDamperState()
 
 	if ( rate > 0 )
 	{
-		Release.setAttribute(Release.Gain, 0);
+		Release1.setAttribute(Release1.Gain, 0);
+		Release2.setAttribute(Release2.Gain, 0);
+		Release3.setAttribute(Release3.Gain, 0);
+		Release4.setAttribute(Release4.Gain, 0);
+		Release5.setAttribute(Release5.Gain, 0);
+		Release6.setAttribute(Release6.Gain, 0);
+		Release7.setAttribute(Release7.Gain, 0);
 	}
 	else
 	{
-		Release.setAttribute(Release.Gain, 1);
+		Release1.setAttribute(Release1.Gain, 0.63);
+		Release2.setAttribute(Release2.Gain, 0.63);
+		Release3.setAttribute(Release3.Gain, 0.63);
+		Release4.setAttribute(Release4.Gain, 0.63);
+		Release5.setAttribute(Release5.Gain, 1);
+		Release6.setAttribute(Release6.Gain, 1);
+		Release7.setAttribute(Release7.Gain, 1);		
 	}
 
 	DefaultEnvelope1.setAttribute(DefaultEnvelope1.Release, value);
@@ -133,19 +151,34 @@ inline function ChangeDamperState()
 	DefaultEnvelope8.setAttribute(DefaultEnvelope8.Release, value);
 };
 
-const var ReleaseSimpleGain = Synth.getEffect("Release Gain");
+const var SimpleGain1 = Synth.getEffect("Simple Gain1");
+const var SimpleGain2 = Synth.getEffect("Simple Gain2");
+const var SimpleGain3 = Synth.getEffect("Simple Gain3");
+const var SimpleGain4 = Synth.getEffect("Simple Gain4");
+const var SimpleGain5 = Synth.getEffect("Simple Gain5");
+const var SimpleGain6 = Synth.getEffect("Simple Gain6");
+const var SimpleGain7 = Synth.getEffect("Simple Gain7");
+
 inline function ChangeReleaseGain( value )
 {
-	ReleaseSimpleGain.setAttribute(ReleaseSimpleGain.Gain, value);
+	SimpleGain1.setAttribute(SimpleGain1.Gain, value);
+	SimpleGain2.setAttribute(SimpleGain2.Gain, value);
+	SimpleGain3.setAttribute(SimpleGain3.Gain, value);
+	SimpleGain4.setAttribute(SimpleGain4.Gain, value);
+	SimpleGain5.setAttribute(SimpleGain5.Gain, value);
+	SimpleGain6.setAttribute(SimpleGain6.Gain, value);
+	SimpleGain7.setAttribute(SimpleGain7.Gain, value);
 };
 
 const var SimpleGain8 = Synth.getEffect("Simple Gain8");
+
 inline function ChangeHammerGain( value )
 {
 	SimpleGain8.setAttribute(SimpleGain8.Gain, value);
 };
 
 const var SimpleGain9 = Synth.getEffect("Simple Gain9");
+
 inline function ChangePedalGain( value )
 {
 	SimpleGain9.setAttribute(SimpleGain9.Gain, value);
@@ -378,8 +411,7 @@ function onNoteOn()
 	Synth.playNote(16, 127);
 	if ( MetronomeBeatCount == 0 )
 	{
-		if ( MetronomeBeatSlider.getValue() > 0 )
-			Synth.playNote(17, 127);
+		Synth.playNote(17, 127);
 	}
 	MetronomeBeatCount++;
 	if (MetronomeBeatCount >= MetronomeBeatSlider.getValue())
