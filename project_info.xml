@@ -2,7 +2,7 @@
 
 <ProjectSettings>
   <Name value="NoctSalamander"/>
-  <Version value="0.6.3"/>
+  <Version value="0.6.4"/>
   <Description value=""/>
   <BundleIdentifier value="com.myCompany.product"/>
   <PluginCode value="Abcd"/>
@@ -12,7 +12,7 @@
   <AdditionalDspLibraries value=""/>
   <OSXStaticLibs value=""/>
   <WindowsStaticLibFolder value=""/>
-  <ExtraDefinitionsWindows value=""/>
+  <ExtraDefinitionsWindows value="NUM_MAX_CHANNELS = 12&#10;HISE_NUM_PLUGIN_CHANNELS = 12"/>
   <ExtraDefinitionsOSX value=""/>
   <ExtraDefinitionsIOS value=""/>
   <ExtraDefinitionsLinux value=""/>

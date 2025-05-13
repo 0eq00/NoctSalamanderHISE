@@ -31,13 +31,15 @@ const var VelocityPanelButton = Content.getComponent("VelocityPanelButton");
 const var DamperPanelButton = Content.getComponent("DamperPanelButton");
 const var SoftPanelButton = Content.getComponent("SoftPanelButton");
 const var MetronomePanelButton = Content.getComponent("MetronomePanelButton");
+const var MixPanelButton = Content.getComponent("MixPanelButton");
 
 const var VelocityPanel = Content.getComponent("VelocityPanel");
 const var DamperPanel = Content.getComponent("DamperPanel");
 const var SoftPanel = Content.getComponent("SoftPanel");
 const var MetronomePanel = Content.getComponent("MetronomePanel");
+const var MixPanel = Content.getComponent("MixPanel");
 
-const var panels2 = [VelocityPanel, DamperPanel, SoftPanel, MetronomePanel];
+const var panels2 = [VelocityPanel, DamperPanel, SoftPanel, MetronomePanel, MixPanel];
 
 inline function handlePanels2(panelToShow)
 {
@@ -64,9 +66,6 @@ const var CC67 = Content.getComponent("CC67");
 const var CC66 = Content.getComponent("CC66");
 const var CC64 = Content.getComponent("CC64");
 const var ReleaseTime = Content.getComponent("ReleaseTime");
-const var ReleaseGain = Content.getComponent("ReleaseGain");
-const var HammerGain = Content.getComponent("HammerGain");
-const var PedalGain = Content.getComponent("PedalGain");
 
 const var DefaultEnvelope1 = Synth.getModulator("DefaultEnvelope1");
 const var DefaultEnvelope3 = Synth.getModulator("DefaultEnvelope3");
@@ -95,8 +94,6 @@ const var ImportDamperTable = Content.getComponent("ImportDamperTable");
 const var DamperLabel  = Content.getComponent("DamperLabel");
 const var ReleaseTimeR100 = Content.getComponent("ReleaseTimeR100");
 const var ResultDamper = Content.getComponent("ResultDamper");
-
-ResultDamper.set("enabled", false);
 
 inline function ChangeDamperState()
 {
@@ -131,24 +128,6 @@ inline function ChangeDamperState()
 	DefaultEnvelope6.setAttribute(DefaultEnvelope6.Release, value);
 	DefaultEnvelope7.setAttribute(DefaultEnvelope7.Release, value);
 	DefaultEnvelope8.setAttribute(DefaultEnvelope8.Release, value);
-};
-
-const var ReleaseSimpleGain = Synth.getEffect("Release Gain");
-inline function ChangeReleaseGain( value )
-{
-	ReleaseSimpleGain.setAttribute(ReleaseSimpleGain.Gain, value);
-};
-
-const var SimpleGain8 = Synth.getEffect("Simple Gain8");
-inline function ChangeHammerGain( value )
-{
-	SimpleGain8.setAttribute(SimpleGain8.Gain, value);
-};
-
-const var SimpleGain9 = Synth.getEffect("Simple Gain9");
-inline function ChangePedalGain( value )
-{
-	SimpleGain9.setAttribute(SimpleGain9.Gain, value);
 };
 
 /* Key Velocity */
@@ -261,16 +240,6 @@ inline function MetronomeControlCB(component, value)
 {
 	switch (component)
 	{
-/*
-		case MetronomeTempoSlider:
-			if ( MetronomePanelButton.getValue() > 0 )
-				Synth.playNote(16,127);
-			break;
-		case MetronomeBeatSlider:
-			if ( MetronomePanelButton.getValue() > 0 )
-				Synth.playNote(17,127);
-			break;
-*/
 		case MetronomeStopButton:
 			MetronomeIsRunnig = false;
 			Synth.stopTimer();
@@ -328,6 +297,61 @@ inline function gridCallback(index, timestamp, isFirst)
 	}
 }
 th.setOnGridChange(SyncNotification, gridCallback);
+
+/* Mix */
+
+const var matrix = Synth.getRoutingMatrix("NoctSalamander");
+
+inline function mix_initialize()
+{
+	local success1 = true;
+	local success2 = true;
+	success1 = matrix.addConnection(0, 0);
+	success2 = matrix.addConnection(1, 1);
+	if ( success1 && success2 )
+		Content.getComponent("MixChTitle1").setValue("1 + 2");
+	else
+		Content.getComponent("MixChTitle1").setValue("- - -");
+
+	success1 = matrix.addConnection(2, 2);
+	success2 = matrix.addConnection(3, 3);
+	if ( success1 && success2 )
+		Content.getComponent("MixChTitle2").setValue("3 + 4");
+	else
+		Content.getComponent("MixChTitle2").setValue("- - -");
+
+	success1 = matrix.addConnection(4, 4);
+	success2 = matrix.addConnection(5, 5);
+	if ( success1 && success2 )
+		Content.getComponent("MixChTitle3").setValue("5 + 6");
+	else
+		Content.getComponent("MixChTitle3").setValue("- - -");
+
+	success1 = matrix.addConnection(6, 6);
+	success2 = matrix.addConnection(7, 7);
+	if ( success1 && success2 )
+		Content.getComponent("MixChTitle4").setValue("7 + 8");
+	else
+		Content.getComponent("MixChTitle4").setValue("- - -");
+
+	success1 = matrix.addConnection(8, 8);
+	success2 = matrix.addConnection(9, 9);
+	if ( success1 && success2 )
+		Content.getComponent("MixChTitle5").setValue("9 + 10");
+	else
+		Content.getComponent("MixChTitle5").setValue("- - -");
+
+	success1 = matrix.addConnection(10, 10);
+	success2 = matrix.addConnection(11, 11);
+	if ( success1 && success2 )
+		Content.getComponent("MixChTitle6").setValue("11 + 12");
+	else
+		Content.getComponent("MixChTitle6").setValue("- - -");
+}
+mix_initialize();
+
+
+
 function onNoteOn()
 {
 //	local noteNumber = Message.getNoteNumber();
@@ -408,15 +432,6 @@ function onNoteOn()
 			releaseTimeR100 = value;
 			ChangeDamperState();
 			break;
-		case ReleaseGain:
-			ChangeReleaseGain(value);
-			break;
-		case HammerGain:
-			ChangeHammerGain(value);
-			break;
-		case PedalGain:
-			ChangePedalGain(value);
-			break;
 		case MainPanelButton:
 			if ( value > 0 )
 				handlePanels1(MainPanel);
@@ -452,6 +467,10 @@ function onNoteOn()
 		case MetronomePanelButton:
 			if ( value > 0 )
 				handlePanels2(MetronomePanel);
+			break;
+		case MixPanelButton:
+			if ( value > 0 )
+				handlePanels2(MixPanel);
 			break;
 		case LoadDefaultButton:
 			if ( value < 1 )
