@@ -52,6 +52,25 @@ inline function handlePanels2(panelToShow)
 VelocityPanelButton.setValue(1);
 handlePanels2(VelocityPanel);
 
+const var SettingsPanelButton1 = Content.getComponent("SettingsPanelButton1");
+const var SettingsPanelButton2 = Content.getComponent("SettingsPanelButton2");
+
+const var SettingsPanel1 = Content.getComponent("SettingsPanel1");
+const var SettingsPanel2 = Content.getComponent("SettingsPanel2");
+
+const var panels3 = [SettingsPanel1, SettingsPanel2];
+
+inline function handlePanels3(panelToShow)
+{
+    for(p in panels3)
+    {
+		p.set("visible", panelToShow == p);    
+    }
+}
+
+SettingsPanelButton1.setValue(1);
+handlePanels3(SettingsPanel1);
+
 /* Main */
 
 for(i = 0; i < 127; i++)
@@ -350,8 +369,97 @@ inline function mix_initialize()
 }
 mix_initialize();
 
+/* Samaple format */
 
+const var SampleFormatComboBox = Content.getComponent("SampleFormatComboBox");
 
+function loadSamplemap( value )
+{
+	// WAV
+	if ( value > 1)
+	{
+		Synth.getChildSynth("Sustain1").asSampler().loadSampleMap("sustain-wav");
+		Synth.getChildSynth("Sustain2").asSampler().loadSampleMap("sustain-wav");
+		Synth.getChildSynth("Soft1").asSampler().loadSampleMap("sustain-wav");
+		Synth.getChildSynth("Soft2").asSampler().loadSampleMap("sustain-wav");
+		Synth.getChildSynth("Soft3").asSampler().loadSampleMap("sustain-wav");
+		Synth.getChildSynth("Soft4").asSampler().loadSampleMap("sustain-wav");
+		Synth.getChildSynth("Soft5").asSampler().loadSampleMap("sustain-wav");
+		Synth.getChildSynth("Soft6").asSampler().loadSampleMap("sustain-wav");
+		Synth.getChildSynth("Soft7").asSampler().loadSampleMap("sustain-wav");
+		Synth.getChildSynth("Soft8").asSampler().loadSampleMap("sustain-wav");
+		Synth.getChildSynth("Release1").asSampler().loadSampleMap("release1-wav");
+		Synth.getChildSynth("Release2").asSampler().loadSampleMap("release2-wav");
+		Synth.getChildSynth("Release3").asSampler().loadSampleMap("release3-wav");
+		Synth.getChildSynth("Release4").asSampler().loadSampleMap("release4-wav");
+		Synth.getChildSynth("Release5").asSampler().loadSampleMap("release5-wav");
+		Synth.getChildSynth("Release6").asSampler().loadSampleMap("release6-wav");
+		Synth.getChildSynth("Release7").asSampler().loadSampleMap("release7-wav");
+		Synth.getChildSynth("Hammer").asSampler().loadSampleMap("hammer-wav");
+		Synth.getChildSynth("Pedal").asSampler().loadSampleMap("pedal-wav");
+	}
+	// HLAC
+	else
+	{
+		Synth.getChildSynth("Sustain1").asSampler().loadSampleMap("sustain");
+		Synth.getChildSynth("Sustain2").asSampler().loadSampleMap("sustain");
+		Synth.getChildSynth("Soft1").asSampler().loadSampleMap("sustain");
+		Synth.getChildSynth("Soft2").asSampler().loadSampleMap("sustain");
+		Synth.getChildSynth("Soft3").asSampler().loadSampleMap("sustain");
+		Synth.getChildSynth("Soft4").asSampler().loadSampleMap("sustain");
+		Synth.getChildSynth("Soft5").asSampler().loadSampleMap("sustain");
+		Synth.getChildSynth("Soft6").asSampler().loadSampleMap("sustain");
+		Synth.getChildSynth("Soft7").asSampler().loadSampleMap("sustain");
+		Synth.getChildSynth("Soft8").asSampler().loadSampleMap("sustain");
+		Synth.getChildSynth("Release1").asSampler().loadSampleMap("release1");
+		Synth.getChildSynth("Release2").asSampler().loadSampleMap("release2");
+		Synth.getChildSynth("Release3").asSampler().loadSampleMap("release3");
+		Synth.getChildSynth("Release4").asSampler().loadSampleMap("release4");
+		Synth.getChildSynth("Release5").asSampler().loadSampleMap("release5");
+		Synth.getChildSynth("Release6").asSampler().loadSampleMap("release6");
+		Synth.getChildSynth("Release7").asSampler().loadSampleMap("release7");
+		Synth.getChildSynth("Hammer").asSampler().loadSampleMap("hammer");
+		Synth.getChildSynth("Pedal").asSampler().loadSampleMap("pedal");
+	}
+}
+
+function loadSampleFormatState()
+{
+	var Flag = FileSystem.fromAbsolutePath(FileSystem.getFolder(FileSystem.AppData).toString(0)+"/format-WAV");
+
+	// WAV
+	if ( Flag.isDirectory() )
+	{
+//		Console.print("true Path["+Flag.toString(0) +"]");
+		loadSamplemap(2);
+		SampleFormatComboBox.setValue(2);
+	}
+	// HLAC
+	else
+	{		
+//		Console.print("false Path["+Flag.toString(0) +"]");
+		loadSamplemap(1);
+		SampleFormatComboBox.setValue(1);
+	}
+}
+loadSampleFormatState();
+
+inline function SampleFormatComboBoxCB(component, value)
+{
+	Console.print("SampleFormatComboBox["+value+"]");
+	if ( value > 1 )
+	{
+		loadSamplemap(2);
+		FileSystem.getFolder(FileSystem.AppData).createDirectory("format-WAV");
+	}
+	else
+	{
+		loadSamplemap(1);
+		local Flag = FileSystem.fromAbsolutePath(FileSystem.getFolder(FileSystem.AppData).toString(0)+"/format-WAV");
+		Flag.deleteFileOrDirectory();
+	}
+};
+SampleFormatComboBox.setControlCallback(SampleFormatComboBoxCB);
 function onNoteOn()
 {
 //	local noteNumber = Message.getNoteNumber();
@@ -471,6 +579,14 @@ function onNoteOn()
 		case MixPanelButton:
 			if ( value > 0 )
 				handlePanels2(MixPanel);
+			break;
+		case SettingsPanelButton1:
+			if ( value > 0 )
+				handlePanels3(SettingsPanel1);
+			break;
+		case SettingsPanelButton2:
+			if ( value > 0 )
+				handlePanels3(SettingsPanel2);
 			break;
 		case LoadDefaultButton:
 			if ( value < 1 )

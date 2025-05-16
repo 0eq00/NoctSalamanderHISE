@@ -10,8 +10,8 @@
           <ChildProcessors/>
           <Content>
             <Control type="ScriptSlider" id="Gain" value="1.490116119384766e-6"/>
-            <Control type="ScriptSlider" id="SustainGain" value="1.490116119384766e-6"/>
             <Control type="ScriptSlider" id="ReleaseTime" value="500.0"/>
+            <Control type="ScriptSlider" id="SustainGain" value="1.490116119384766e-6"/>
             <Control type="ScriptSlider" id="ReleaseGain" value="1.490116119384766e-6"/>
             <Control type="ScriptSlider" id="HammerGain" value="1.490116119384766e-6"/>
             <Control type="ScriptSlider" id="PedalGain" value="1.490116119384766e-6"/>
@@ -369,8 +369,7 @@
                     <Processor Type="EffectChain" ID="FX" Bypassed="0">
                       <ChildProcessors>
                         <Processor Type="PolyphonicFilter" ID="Filter1" Bypassed="0" Gain="0.0"
-                                   Frequency="1200.0" Q="1.0" Mode="9.0" Quality="1.76097312e8"
-                                   BipolarIntensity="0.0">
+                                   Frequency="1200.0" Q="1.0" Mode="9.0" Quality="0.0" BipolarIntensity="0.0">
                           <ChildProcessors>
                             <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
                                        Intensity="1.0">
@@ -556,8 +555,7 @@
                     <Processor Type="EffectChain" ID="FX" Bypassed="0">
                       <ChildProcessors>
                         <Processor Type="PolyphonicFilter" ID="Filter3" Bypassed="0" Gain="0.0"
-                                   Frequency="1400.0" Q="1.0" Mode="9.0" Quality="-3.24866848e8"
-                                   BipolarIntensity="0.0">
+                                   Frequency="1400.0" Q="1.0" Mode="9.0" Quality="0.0" BipolarIntensity="0.0">
                           <ChildProcessors>
                             <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
                                        Intensity="1.0">
@@ -1707,13 +1705,11 @@
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
-                  <RoutingMatrix NumSourceChannels="4" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
-                                 Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"/>
+                  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
                 </Processor>
                 <Processor Type="RouteFX" ID="Routing Matrix3" Bypassed="0">
                   <ChildProcessors/>
-                  <RoutingMatrix NumSourceChannels="4" Channel0="0" Send0="2" Channel1="1" Send1="3"
-                                 Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"/>
+                  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="2" Channel1="1" Send1="3"/>
                 </Processor>
               </ChildProcessors>
             </Processor>
@@ -1724,8 +1720,7 @@
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
-          <RoutingMatrix NumSourceChannels="4" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
-                         Channel2="6" Send2="-1" Channel3="7" Send3="-1"/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
           <channels>
             <channelData enabled="1" level="0.0" suffix=""/>
           </channels>
@@ -1788,13 +1783,11 @@
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
-                  <RoutingMatrix NumSourceChannels="4" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
-                                 Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"/>
+                  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
                 </Processor>
                 <Processor Type="RouteFX" ID="Routing Matrix4" Bypassed="0">
                   <ChildProcessors/>
-                  <RoutingMatrix NumSourceChannels="4" Channel0="0" Send0="2" Channel1="1" Send1="3"
-                                 Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"/>
+                  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="2" Channel1="1" Send1="3"/>
                 </Processor>
               </ChildProcessors>
             </Processor>
@@ -1805,8 +1798,7 @@
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
-          <RoutingMatrix NumSourceChannels="4" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
-                         Channel2="8" Send2="-1" Channel3="9" Send3="-1"/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
           <channels>
             <channelData enabled="1" level="0.0" suffix=""/>
           </channels>

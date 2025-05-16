@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<samplemap CrossfadeGamma="1.0" ID="release7" RRGroupAmount="1.0" MicPositions=";">
+<sample Root="21" LoKey="20" HiKey="22" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3A0.wav" Duplicate="0"/>
+<sample Root="24" LoKey="23" HiKey="25" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3C1.wav" Duplicate="0"/>
+<sample Root="27" LoKey="26" HiKey="28" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3D#1.wav" Duplicate="0"/>
+<sample Root="30" LoKey="29" HiKey="31" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3F#1.wav" Duplicate="0"/>
+<sample Root="33" LoKey="32" HiKey="34" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3A1.wav" Duplicate="0"/>
+<sample Root="36" LoKey="35" HiKey="37" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3C2.wav" Duplicate="0"/>
+<sample Root="39" LoKey="38" HiKey="40" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3D#2.wav" Duplicate="0"/>
+<sample Root="42" LoKey="41" HiKey="43" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3F#2.wav" Duplicate="0"/>
+<sample Root="45" LoKey="44" HiKey="46" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3A2.wav" Duplicate="0"/>
+<sample Root="48" LoKey="47" HiKey="49" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3C3.wav" Duplicate="0"/>
+<sample Root="51" LoKey="50" HiKey="52" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3D#3.wav" Duplicate="0"/>
+<sample Root="54" LoKey="53" HiKey="55" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3F#3.wav" Duplicate="0"/>
+<sample Root="57" LoKey="56" HiKey="58" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3A3.wav" Duplicate="0"/>
+<sample Root="60" LoKey="59" HiKey="61" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3C4.wav" Duplicate="0"/>
+<sample Root="63" LoKey="62" HiKey="64" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3D#4.wav" Duplicate="0"/>
+<sample Root="66" LoKey="65" HiKey="67" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3F#4.wav" Duplicate="0"/>
+<sample Root="69" LoKey="68" HiKey="70" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3A4.wav" Duplicate="0"/>
+<sample Root="72" LoKey="71" HiKey="73" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3C5.wav" Duplicate="0"/>
+<sample Root="75" LoKey="74" HiKey="76" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3D#5.wav" Duplicate="0"/>
+<sample Root="78" LoKey="77" HiKey="79" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3F#5.wav" Duplicate="0"/>
+<sample Root="81" LoKey="80" HiKey="82" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3A5.wav" Duplicate="0"/>
+<sample Root="84" LoKey="83" HiKey="85" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3C6.wav" Duplicate="0"/>
+<sample Root="87" LoKey="86" HiKey="88" LoVel="1" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmV3D#6.wav" Duplicate="0"/>
+</samplemap>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<samplemap CrossfadeGamma="1.0" ID="release2" RRGroupAmount="1.0" MicPositions=";">
+<sample Root="30" LoKey="29" HiKey="31" LoVel="45" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmLF#1.wav" Duplicate="0"/>
+<sample Root="33" LoKey="32" HiKey="34" LoVel="45" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmLA1.wav" Duplicate="0"/>
+<sample Root="36" LoKey="35" HiKey="37" LoVel="45" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmLC2.wav" Duplicate="0"/>
+</samplemap>

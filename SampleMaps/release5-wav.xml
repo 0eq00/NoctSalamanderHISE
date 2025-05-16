@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<samplemap CrossfadeGamma="1.0" ID="release5" RRGroupAmount="1.0" MicPositions=";">
+<sample Root="21" LoKey="20" HiKey="22" LoVel="1" HiVel="44" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmSA0.wav" Duplicate="0"/>
+<sample Root="24" LoKey="23" HiKey="25" LoVel="1" HiVel="44" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmSC1.wav" Duplicate="0"/>
+<sample Root="27" LoKey="26" HiKey="28" LoVel="1" HiVel="44" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmSD#1.wav" Duplicate="0"/>
+<sample Root="30" LoKey="29" HiKey="31" LoVel="1" HiVel="44" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmSF#1.wav" Duplicate="0"/>
+<sample Root="33" LoKey="32" HiKey="34" LoVel="1" HiVel="44" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmSA1.wav" Duplicate="0"/>
+<sample Root="36" LoKey="35" HiKey="37" LoVel="1" HiVel="44" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmSC2.wav" Duplicate="0"/>
+<sample Root="39" LoKey="38" HiKey="40" LoVel="1" HiVel="44" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmSD#2.wav" Duplicate="0"/>
+<sample Root="42" LoKey="41" HiKey="43" LoVel="1" HiVel="44" RRGroup="1" FileName="{PROJECT_FOLDER}48khz24bit/harmSF#2.wav" Duplicate="0"/>
+</samplemap>
