@@ -2,7 +2,7 @@
 
 <ProjectSettings>
   <Name value="NoctSalamander"/>
-  <Version value="0.6.5"/>
+  <Version value="0.6.6"/>
   <Description value=""/>
   <BundleIdentifier value="com.myCompany.product"/>
   <PluginCode value="Abcd"/>
@@ -13,9 +13,9 @@
   <OSXStaticLibs value=""/>
   <WindowsStaticLibFolder value=""/>
   <ExtraDefinitionsWindows value="NUM_MAX_CHANNELS = 12&#10;HISE_NUM_PLUGIN_CHANNELS = 12"/>
-  <ExtraDefinitionsOSX value=""/>
-  <ExtraDefinitionsIOS value=""/>
-  <ExtraDefinitionsLinux value=""/>
+  <ExtraDefinitionsOSX value="NUM_MAX_CHANNELS = 12&#10;HISE_NUM_PLUGIN_CHANNELS = 12"/>
+  <ExtraDefinitionsIOS value="NUM_MAX_CHANNELS = 12&#10;HISE_NUM_PLUGIN_CHANNELS = 12"/>
+  <ExtraDefinitionsLinux value="NUM_MAX_CHANNELS = 12&#10;HISE_NUM_PLUGIN_CHANNELS = 12"/>
   <ExtraDefinitionsNetworkDll value=""/>
   <AppGroupID value=""/>
   <RedirectSampleFolder value=""/>

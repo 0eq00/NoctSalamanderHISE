@@ -317,6 +317,95 @@ inline function gridCallback(index, timestamp, isFirst)
 }
 th.setOnGridChange(SyncNotification, gridCallback);
 
+/* MIDI Player */
+
+const var MIDIPlayer1 = Synth.getMidiPlayer("MIDI Player1");
+
+const var PlayerTempoSlider = Content.getComponent("PlayerTempoSlider");
+const var PlayerStopButton = Content.getComponent("PlayerStopButton");
+const var PlayerPlayButton = Content.getComponent("PlayerPlayButton");
+const var PlayerRecordButton = Content.getComponent("PlayerRecordButton");
+const var PlayerResetButton = Content.getComponent("PlayerResetButton");
+const var PlayerResetPanel = Content.getComponent("PlayerResetPanel");
+const var NominatorSlider = Content.getComponent("NominatorSlider");
+const var DenominatorSlider = Content.getComponent("DenominatorSlider");
+const var BarSlider = Content.getComponent("BarSlider");
+const var PlayerResetButton2 = Content.getComponent("PlayerResetButton2");
+const var PlayerCancelButton = Content.getComponent("PlayerCancelButton");
+
+PlayerStopButton.setValue(1);
+Engine.setHostBpm(120);
+PlayerTempoSlider.setValue(120);
+NominatorSlider.setValue(4);
+DenominatorSlider.setValue(4);
+BarSlider.setValue(32);
+
+function MIDIPlayerRest()
+{
+	MIDIPlayer1.stop(0);
+	MIDIPlayer1.clearAllSequences();
+	MIDIPlayer1.create( NominatorSlider.getValue(), DenominatorSlider.getValue(), BarSlider.getValue() );
+	PlayerStopButton.setValue(1);
+}
+if ( MIDIPlayer1.isEmpty() ) MIDIPlayerRest();
+PlayerResetPanel.set("visible",false);
+
+inline function MIDIPlayerCB(component, value)
+{
+	switch ( component )
+	{
+		case PlayerTempoSlider:
+//			Console.print("PlayerTempoSlider["+value+"]");
+			Engine.setHostBpm(value);
+			break;
+		case PlayerStopButton:
+			MIDIPlayer1.stop(0);
+			break;
+		case PlayerPlayButton:
+			MIDIPlayer1.play(0);
+			break;
+		case PlayerRecordButton:
+			MIDIPlayer1.record(0);
+			break;
+		case PlayerResetButton:
+			if ( value > 0 )
+			{
+				PlayerResetPanel.set("visible",true);
+			}
+			break;
+		case PlayerResetButton2:
+			if ( value > 0 )
+			{
+				MIDIPlayerRest();
+				PlayerResetPanel.set("visible",false);
+			}
+			break;
+		case PlayerCancelButton:
+			if ( value > 0 )
+			{
+				PlayerResetPanel.set("visible",false);
+			}
+			break;		
+	}
+}
+PlayerTempoSlider.setControlCallback(MIDIPlayerCB);
+PlayerStopButton.setControlCallback(MIDIPlayerCB);
+PlayerPlayButton.setControlCallback(MIDIPlayerCB);
+PlayerRecordButton.setControlCallback(MIDIPlayerCB);
+PlayerResetButton.setControlCallback(MIDIPlayerCB);
+PlayerResetButton2.setControlCallback(MIDIPlayerCB);
+PlayerCancelButton.setControlCallback(MIDIPlayerCB);
+
+inline function PlayerPlaybackCB( timestamp, playState)
+{
+//	Console.print("PlayerPlaybackCB["+playState+"]");
+	if ( playState == 0 )
+	{
+		PlayerStopButton.setValue(1);
+	}
+}
+MIDIPlayer1.setPlaybackCallback(PlayerPlaybackCB,th.PreferInternal);
+
 /* Mix */
 
 const var matrix = Synth.getRoutingMatrix("NoctSalamander");
